@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--<title>Trusted Clothes:About Us</title>-->
+    <!--#include file="SSI/head_tag.html" -->
+    <style>
+        /*For embedded sytles*/
+        
+        h4 {
+            font-weight: bold;
+        }
+        
+        body {
+            line-height: 1.7;
+            /* increasing according to graphics request */
+        }
+        
+        img {
+            padding-top: 0px;
+            !important
+        }
+        
+        #partner-box {
+            min-height: 160px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-style: groove;
+            padding-right: 2px !important;
+            padding-left: 2px !important;
+        }
+        
+        .row {
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+        }
+        
+        .content-page {
+            padding-right: 1px !important;
+            padding-left: 1px !important;
+        }
+        
+        .aboutimage {
+            margin: auto;
+            display: block;
+        }
+        
+        #sas {
+            float: right;
+        }
+        
+        #tenents > li {
+            font-weight: bold;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        section {
+            margin-top: 25px;
+        }
+        
+        .backPic {}
+    </style>
+</head>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+
+<body>
+    <!--Add the URL for the landing page picture  -->
+    <div class="jumbotron" style="background: url('./images/Capture.jpg');
+            background-position: center center;">
+        <!--#include file="SSI/nav_bar.html" -->
+        <h1 class="pageName">TRUSTED CLOTHES &#45; 20 YEARS IN THE MAKING</h1> </div>
+    <!-- --------------------------------End of Navigation------------------------------------>
+    <article class="container-fluid ">
+        <header>
+            <h2 class="center">
+                Promoting Ethical&#44; Sustainable &amp; Healthy Fashion:
+            </h2>
+            <h3 class="center">
+                Welcome to the world of conscious consumers, fair trade, organic fibres, and all the hard work that goes into changing an entire industry, together.
+            </h3> 
+            <img class="hidden" src="images/trusted-clothes%20color.png" class="aboutimage" height="200px">
+            <center><iframe 
+                src="https://www.youtube.com/embed/8CEWieMZBsE" 
+                frameborder="0"
+                width="600px"
+                height="338px" 
+            >
+            </iframe></center>
+        </header>
+
+        <section>
+            <p class="center">WELCOME to Trusted Clothes! Our organization has roots dating back two decades and everything we’ve done has prepared us for this mission. Our background is diverse – we’ve been involved in everything from pioneering renewable energy projects in Canada to global marketing campaigns for the world’s largest companies. We’ve travelled the world and seen both beauty and despair through the eyes of locals. We’ve had the privilege of meeting people who live on $2 a day and numerous ultra-high net worth people including billionaires. Now it’s the time to <i>DO</i> something about it. To us Trusted Clothes is not the start of something – it’s the <i>RESULT</i> of something.</p> <img src="images/SAS.jpg" class="aboutimage" id="sas"> </section>
+        <section>
+            <h4>Why garments and why now?</h4>
+            <p>The garment industry was the most natural starting point. In terms of environmental impact the industry is in the same ballpark as Fossil Fuels and Factory Farming making it a significant contributor to global environmental and health issues. Secondly the nature of the industry and supply chains creates a starting point for poverty, slavery, child labour, human trafficking, abuse, safety issues and…. many other very bad things.
+                <br> We have personally witnessed the evolution of qORGANIC agriculture – from very small niche farmers in the 1990’s to today’s supply chain that covers a large footprint in grocery stores. Now almost 20 years later a similar movement is under way in the global garment industry and we’re in the unique position in history that we have the ability help in this transformation and accelerate it.</p>
+        </section>
+        <section>
+            <h4>How do we accomplish this?</h4>
+            <p>Our approach is very simple. Using the resources we have at our disposal we are mobilizing a global team of like-minded individuals who can each contribute a piece of the overall solution which includes:
+                <ul id="tenents">
+                    <li>Awareness</li>
+                    <ul>
+                        <li>Raise awareness of this industry globally</li>
+                        <li>Celebrate success stories and change makers</li>
+                        <li>Highlight abuses</li>
+                    </ul>
+                    <li>Educate</li>
+                    <ul>
+                        <li>Educate consumers to understand alternatives, buying behavior and key domains of this industry</li>
+                    </ul>
+                    <li>Connect &amp; Close the Gap</li>
+                    <ul>
+                        <li>Transform the industry from within – establish connections with like-minded individuals to close the gap between conscious consumers and retailers, brands and manufactures who provide sustainable, ethical and healthy alternatives to mainstream fashion </li>
+                    </ul>
+                </ul>
+        </section>
+        <section>
+            <h4>Don’t just listen, be a voice!</h4>
+            <p> Everyone can contribute in their own way – for some people that means volunteering for others it means a single introduction which may lead to something else. Whatever your situation we urge you to contact us. Give us a call (226-476-1438), text us (226-476-1438) or drop us an email (contact@trustedclothes.com) just to introduce yourself. Some of the biggest successes have started in the most unlikely ways. </p>
+        </section>
+    </article>
+    <!-- --------------------------------Footer-----------------------------------------------!>
+<!--Social Media Footer-->
+    <footer>
+        <!--#include file="SSI/footer.html" -->
+    </footer>
+</body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js "></script>
+<script src="js/jquery-3.1.1.min.js "></script>
+<script src="js/bootstrap.min.js "></script>
+<script src="js/socialMediaIcons2.js "></script>
+
+</html>

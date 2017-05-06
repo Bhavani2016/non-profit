@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        Modified by Brian Chaves
+        Modified on Febuary 13, 2017
+        Template for trusted clothes with Server Side Includes
+
+        Do not delete any tags that contains "include file" that appers as comments
+
+        To get SHTML files to work in Google Chrome localy, install the "Local SHTML Processor (Server Side Includes)" extention. Be sure to check the "allow access
+        files url" chneckbox.
+
+        If using title tag, place it above the "include file SSI/head_tag.html" tag otherwise it will not work
+    -->
+    <!--#include file="SSI/head_tag.html" -->
+    <style>
+        /*For embedded sytles*/
+    </style>
+</head>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<body>
+
+<!--Add the URL for the landing page picture  -->
+    <div class="jumbotron" style="background: url('./images/Capture.jpg');
+            background-position: center center;">
+        <!--#include file="SSI/nav_bar.html" -->
+        <h1 class="pageName">PAGE NAME GOES HERE</h1> </div>
+    <!-- --------------------------------End of Navigation------------------------------------>
+    <article class="container-fluid ">
+        Content Goes Here
+    </article>
+    <!-- --------------------------------Footer-----------------------------------------------!>
+<!--Social Media Footer-->
+    <footer>
+        <!--#include file="SSI/footer.html" -->
+    </footer>
+</body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js "></script>
+<script src="js/jquery-3.1.1.min.js "></script>
+<script src="js/bootstrap.min.js "></script>
+<script src="js/socialMediaIcons2.js "></script>
+
+</html>

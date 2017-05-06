@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        Modified by Brian Chaves
+        Modified on Febuary 13, 2017
+        Template for trusted clothes with Server Side Includes
+
+        Do not delete any tags that contains "include file" that appers as comments
+
+        To get SHTML files to work in Google Chrome localy, install the "Local SHTML Processor (Server Side Includes)" extention. Be sure to check the "allow access
+        files url" chneckbox.
+
+        If using title tag, place it above the "include file SSI/head_tag.html" tag otherwise it will not work
+    -->
+    <!--#include file="SSI/head_tag.html" -->
+    <style>
+        /*For embedded sytles*/
+    </style>
+</head>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<body>
+
+<!--Add the URL for the landing page picture  -->
+    <div class="jumbotron container-full" id="home" style="background-image: url(./images/intro-bg.jpg);">		
+	
+        <!--#include file="SSI/nav_bar.html" -->
+  
+        <!--<div class="container">  Top page container
+              <h3>Basic Navbar Example</h3>
+              <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+        </div>-->
+    </div>	
+<!-- --------------------------------End of Navigation------------------------------------!>
+    
+CONTENT GOES HERE
+
+
+<!-- --------------------------------Footer-----------------------------------------------!>
+<!--Social Media Footer-->
+        <footer>
+            
+        <div class="container-fluid" id="socialMedia">
+            <p class="socialText">Stay <span style="color:#89b252;">Connected.</span> Get the latest details on our swaps, how to <a title="Become a Volunteer" href="./volunteer.html" id="style-stuff011"><span id="style-stuff012">volunteer</span></a> and much more!</p>
+                <div id="outer-social">
+                    <div id="inner-social">
+                        <ul>    
+                            <li onclick="window.open('http://www.facebook.com/TrustedClothes', '_blank')" title="Facebook">
+                                <a class="fa fa-facebook fa-1x" href="http://www.facebook.com/TrustedClothes" target="_blank"></a></li>
+
+                            <li  onclick="window.open('http://www.twitter.com/TrustedClothes', '_blank')" title="Twitter">
+                               <a class="fa fa-twitter fa-1x" href="http://www.twitter.com/TrustedClothes" title="Twitter" target="_blank"></a></li>
+
+                            <li  onclick="window.open('http://www.youtube.com/TrustedClothes', '_blank')" title="YouTube">
+                                <a class="fa fa-youtube fa-1x" href="http://www.youtube.com/TrustedClothes" title="YouTube" target="_blank"></a></li>
+
+                            <li  onclick="window.open('http://www.instagram.com/TrustedClothes', '_blank')" title="Instagram">
+                               <a class="fa fa-instagram fa-1x" href="http://www.instagram.com/TrustedClothes" title="Instagram" target="_blank"></a></li>
+                            
+                            <li onclick="window.open('https://plus.google.com/+TrustedClothes', '_blank')" title="Google-plus">
+				<a class="fa fa-google-plus fa-1x" href="https://plus.google.com/+TrustedClothes" title="Google-plus" target="_blank"></a>
+			    </li>
+                        </ul>
+                    </div>
+                </div> 		
+            </div>
+            <section class="footer-holder container-fluid">
+                <div class="footer-copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-4">
+                              <h4>EXPLORE</h4>
+                              <a class="footmenu" href="volunteer.html">Volunteer</a><br>
+                              <a class="footmenu" href="contactUs.html">Contact Us</a><br>
+                              <a class="footmenu" href="faq.html">FAQ</a>
+                            </div>
+                            <div class="col-xs-6 col-md-4">
+                                <h4>VISIT</h4>
+                                <a class="footmenu" href="contactUs.html">Directions</a><br>
+                                <a class="footmenu" href="clothingSwap.html">Events</a><br>                          
+                            </div>
+                            <div class="col-xs-12 col-md-4" id="footcopy">
+                                <img alt="Trusted Clothes" src="./images/logo.png" style="margin-bottom:30px;"><br>
+                                &copy; 2017 Trusted Clothes             
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+        </footer>
+    </body>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/socialMediaIcons2.js"></script>
+    <script>
+    //$(function(){
+      //  $('.top-menu .nav > li:nth-child(5)> a,.top-menu .nav > li:nth-child(1)> a ').click(function(){
+        //    window.open(this.href);
+        //    return false;
+    //    });
+    //});	
+    </script>
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Trusted Clothes</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<!--icon-->
+	<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+	<!--Lato font load http://www.cssfontstack.com/Lato --Do not remove -->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+
+	<!--JQuery and Bootstrap scripts load moved to bottom-->
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+
+	<!-- Main Sytle Sheets -->
+	<link href="css/trustedClothesStyles.css" rel="stylesheet" type="text/css" />
+	<link href="css/SocialMediaIcons.css" rel="stylesheet" type="text/css" />
+	<link href="css/mobilemedia.css" rel="stylesheet" type="text/css" />
+
+	<!--Need for the social media icons -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!--Google Analytics -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-69533067-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<style>
+		.question {
+			width: 90%;
+			font-size: 2em;
+			background-color: rgb(137, 178, 82);
+			text-shadow: none;
+		}
+		
+		#content_container details {
+			text-align: center;
+		}
+		
+		details summary::-webkit-details-marker {
+			display: none;
+		}
+		
+		.info {
+			font-size: 1em;
+			margin: 0 5% 0 5%;
+		}
+		
+		@media (min-width: 600px) and (max-width: 768px) {
+			.question {
+				font-size: 22px;
+			}
+		}
+		
+		@media (min-width: 321px) and (max-width: 600px) {
+			.question {
+				font-size: 16px;
+			}
+		}
+		
+		@media (max-width: 320px) {
+			.question {
+				font-size: 12px;
+			}
+		}
+	</style>
+</head>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+
+<body>
+
+	<!--Add the URL for the landing page picture  -->
+	<div class="jumbotron container-full" id="home" style="background: url('./images/Capture3.jpg');
+            background-position: center center; max-height: 630px;">
+
+		<nav class=" navbar navbar-inverse navbar-fixed-top ">
+			<div class="container-fluid ">
+				<div class="navbar-header ">
+					<button type="button " class="navbar-toggle " data-toggle="collapse " data-target=".navbar-collapse ">
+						<span class="sr-only ">Toggle navigation</span>
+						<span class="icon-bar "></span>
+						<span class="icon-bar "></span>
+						<span class="icon-bar "></span>
+					</button>
+
+					<a class="navbar-brand " href="index.html "><img src="./images/trusted-clothes-white-croppedlogo.png " height="75 " alt="Trusted Clothes ">
+						<span class="whiteHead ">SUSTAINABLE&#8226;ETHICAL&#8226;HEALTHY</span></a>
+					<!--<a class="navbar-brand " href="# ">WebSiteName</a>-->
+				</div>
+				<div class="collapse navbar-collapse ">
+					<ul class="nav navbar-nav navbar-right ">
+						<li class="dropdown-header ">
+							<a href="# " class="dropdown-toggle " data-toggle="dropdown " target="_self ">About<span class="caret "></span></a>
+							<ul class="dropdown-menu " role="menu ">
+								<li><a href="./AboutUs.html ">About Us</a></li>
+								<li><a href="./partners.html ">Partners</a></li>
+							</ul>
+						</li>
+						<li class="dropdown-header ">
+							<a href="# " class="dropdown-toggle " data-toggle="dropdown " data-hover="dropdown ">Volunteer!<span class="caret "></span></a>
+							<ul class="dropdown-menu " role="menu ">
+								<li><a href="localVolunteer.html ">Local (KW area)</a></li>
+								<li><a href="remoteVolunteer.html ">Remote</a></li>
+								<li><a href="universityCollege.html ">University and College</a></li>
+								<li><a href="highSchoolStudent.html ">High School</a></li>
+							</ul>
+						</li>
+						<li class="dropdown-header ">
+							<a href="# " class="dropdown-toggle " data-toggle="dropdown " target="_self ">Events<span class="caret "></span></a>
+							<ul class="dropdown-menu " role="menu ">
+								<li><a href="clothingSwap.html ">Clothes Swap</a></li>
+								<!--<li><a href="stuffyDrive.html ">Stuffy Drive</a></li>-->
+							</ul>
+						</li>
+						<li class="nav-adjust "><a href="http://www.trustedclothes.com/blog/ " target="_blank ">BLOG</a></li>
+						<li class="active "><a href="contactUs.html " target="_self ">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<h1 class="pageName">Frequently Asked Questions</h1>
+	</div>
+	<!-- --------------------------------End of Navigation---------------------------------- -->
+
+	<div id="content_container" class="container-fluid">
+		<details>
+			<!-- Contains all info -->
+			<summary>
+				<h1 class="btn btn-success question">What is Trusted Clothes?</h1></summary>
+			<!-- Question title -->
+			<!-- Answer -->
+			<p class="info"> We are a not-for-profit organization advocating for the clothing and fashion industry to become more ethical, sustainable and health-conscious. We advocate for workers' rights in garment factories around the world. We advocate for clothing that produces less pollution and waste on our planet. We advocate for clothing that are healthy for our bodies and minds. We advocate for positive change inside the garment and clothing industry.</p>
+		</details>
+		<details>
+			<!-- Contains all info -->
+			<summary>
+				<h1 class="btn btn-success question">Why focus on clothes?</h1></summary>
+			<!-- Question title -->
+			<!-- Answer -->
+			<p class="info"> The global apparel market is valued at 3 trillion dollars annually and accounts for 2 percent of the world's Gross Domestic Product (GDP). Almost 60 million people were employed in the textile & clothing manufacturing sector in 2014. Like oil, it is one of the most profitable industries on the planet. Yet it is also one of the most exploitative and dirty industries in the world. We believe we can change that. </p>
+		</details>
+		<details>
+			<!-- Contains all info -->
+			<summary>
+				<h1 class="btn btn-success question"> How can I apply to work?</h1></summary>
+			<!-- Question title -->
+			<!-- Answer -->
+			<p class="info"> You can apply to many different departments at Trusted Clothes. Just follow the link to the volunteer sign-up page.</p>
+		</details>
+		<details>
+			<!-- Contains all info -->
+			<summary>
+				<h1 class="btn btn-success question">What type of work can I do at Trusted Clothes?</h1></summary>
+			<!-- Question title -->
+			<!-- Answer -->
+			<p class="info"> Depends on what position you have applied for. For the Content department, it would be mainly writing intensive: writing blogs and researching on topics. For some of you, video shooting and editing could be an option as well. For HR, it would be mostly administrative duties: creating and updating potential job post on online job boards, responding to new volunteers' emails, on-boarding new volunteers on procedures. We also have a communications and IT department. Communications is essentially the public face of Trusted Clothes, so if you want to come and represent us, we're always glad to have you! IT is the tech guys: all of our hardware and networking issues are resolved through them.</p>
+		</details>
+		<details>
+			<!-- Contains all info -->
+			<summary>
+				<h1 class="btn btn-success question">Will I be paid for working at Trusted Clothes?</h1></summary>
+			<!-- Question title -->
+			<!-- Answer -->
+			<p class="info"> All of our positions are on an unpaid, volunteer basis for now. In the future Trusted Clothes will have a hiring section on the website, so stay tuned! </p>
+		</details>
+		<details>
+			<!-- Contains all info -->
+			<summary>
+				<h1 class="btn btn-success question">What can I gain as a volunteer?</h1></summary>
+			<!-- Question title -->
+			<!-- Answer -->
+			<p class="info">Invaluable work experience in your chosen field as well as life experience. We will also give you a kick-ass letter of recommendation should you find paid employment elsewhere. And did we mention frequent free food and cake? And the knowledge that you have done some good in this world.</p>
+		</details>
+		<details>
+			<!-- Contains all info -->
+			<summary>
+				<h1 class="btn btn-success question"> Where can I shop for ethical clothes?</h1></summary>
+			<!-- Question title -->
+			<!-- Answer -->
+			<p class="info"> Trusted Clothes maintains an updated list of all ethical and organic clothing shops in Canada. We will soon have it available on our website, so stay tuned!</p>
+		</details>
+		<details>
+			<!-- Contains all info -->
+			<summary>
+				<h1 class="btn btn-success question">  Where can I learn more about ethical fashion?</h1></summary>
+			<!-- Question title -->
+			<!-- Answer -->
+			<p class="info"> On the <a href="www.trustedclothes.com/blog/">Trusted Clothes blog</a> we have over 700 articles on ethical, sustainable and healthy fashion. We maintain one of the most comprehensive, multi-topic blog sites about the clothing and fashion industry.in the world, You can learn everything from women's labour rights in the garment sector to applications of nanotechnology in clothing.
+			</p>
+		</details>
+		<!--
+        -->
+	</div>
+
+
+	<!-- --------------------------------Footer-----------------------------------------------!>
+<!--Social Media Footer-->
+	<footer>
+
+		<div class="container-fluid " id="socialMedia ">
+			<p class="socialText ">Stay <span style="color:#89b252; ">Connected.</span> Get the latest details on our swaps, how to <a title="Become a Volunteer " href="./volunteer.html " id="style-stuff011 "><span id="style-stuff012" style="color: #ffb84d">volunteer</span></a> and much more!</p>
+			<div id="outer-social ">
+				<div id="inner-social ">
+					<ul>
+						<li onclick="window.open( 'http://www.facebook.com/TrustedClothes', '_blank') " title="Facebook ">
+							<a class="fa fa-facebook fa-1x " href="http://www.facebook.com/TrustedClothes " target="_blank "></a>
+						</li>
+
+						<li onclick="window.open( 'http://www.twitter.com/TrustedClothes', '_blank') " title="Twitter ">
+							<a class="fa fa-twitter fa-1x " href="http://www.twitter.com/TrustedClothes " title="Twitter " target="_blank "></a>
+						</li>
+
+						<li onclick="window.open( 'http://www.youtube.com/TrustedClothes', '_blank') " title="YouTube ">
+							<a class="fa fa-youtube fa-1x " href="http://www.youtube.com/TrustedClothes " title="YouTube " target="_blank "></a>
+						</li>
+
+						<li onclick="window.open( 'http://www.instagram.com/TrustedClothes', '_blank') " title="Instagram ">
+							<a class="fa fa-instagram fa-1x " href="http://www.instagram.com/TrustedClothes " title="Instagram " target="_blank "></a>
+						</li>
+						<li onclick="window.open('https://plus.google.com/+TrustedClothes', '_blank')" title="Google-plus">
+							<a class="fa fa-google-plus fa-1x" href="https://plus.google.com/+TrustedClothes" title="Google-plus" target="_blank"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<section class="footer-holder container-fluid ">
+			<div class="footer-copyright ">
+				<div class="container ">
+					<div class="row ">
+						<div class="col-xs-6 col-md-4 ">
+							<h4>EXPLORE</h4>
+							<a class="footmenu " href="volunteer.html ">Volunteer</a>
+							<br>
+							<a class="footmenu " href="contactUs.html ">Contacts</a>
+							<br>
+							
+						</div>
+						<div class="col-xs-6 col-md-4 ">
+							<h4>VISIT</h4>
+							<a class="footmenu " href="contactUs.html ">Directions</a>
+							<br>
+							<a class="footmenu " href="clothingSwap.html ">Events</a>
+							<br>
+						</div>
+						<div class="col-xs-12 col-md-4 " id="footcopy ">
+							<img alt="Trusted Clothes " src="./images/logo.png " style="margin-bottom:30px; ">
+							<br> &copy; 2017 Trusted Clothes
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
+</body>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js "></script>
+<script src="js/jquery-3.1.1.min.js "></script>
+<script src="js/bootstrap.min.js "></script>
+<script src="js/socialMediaIcons2.js "></script>
+<script>
+	//$(function(){
+	//  $('.top-menu .nav > li:nth-child(5)> a,.top-menu .nav > li:nth-child(1)> a ').click(function(){
+	//    window.open(this.href);
+	//    return false;
+	//    });
+	//});
+</script>
+
+</html>

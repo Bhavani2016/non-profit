@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- 
+		Second hand contest page
+		Created by Brian Chaves
+		Created on April 19,2017
+		Updated on April 19,2017
+	-->
+	<!--#include file="SSI/head_tag.html" -->
+	<style>
+		/*For embedded sytles*/
+		#contest-image
+		{
+			width:800px;
+		}
+		table td
+		{
+			vertical-align: top;
+		}
+		article
+		{
+			align-items: center;
+		}
+		table
+		{
+			max-width: 910px;
+		}
+		.row1
+		{
+			width:30px;
+		}
+		/*@media screen and (max-width: 800px) {
+			#contest-image
+			{
+				width:100%;
+			}
+		}*/
+	</style>
+</head>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<body>
+
+<!--Add the URL for the landing page picture  -->
+	<div class="jumbotron" style="background: url('./images/store-1338629-dark.jpg');
+			background-position: center center;">
+		<!--#include file="SSI/nav_bar.html" -->
+		<div class="pageName">
+			<br/><br/><br/><br/>
+			<h2>Trusted Clothes Presents...</h2>
+			<br/>
+			<h1>Second Hand, Not Second Best CONTEST</h1>
+		</div> 
+	</div>
+
+	<!-- --------------------------------End of Navigation------------------------------------>
+	<article class="container-fluid ">
+		<center><h2 class="green-font">What does your outfit look like?</center>
+		<center>
+			<img id="contest-image" src="./images/trusted-clothes-contest-2-edit.jpg" />
+		</center>
+		<table align="center">
+			<tr>
+				<th colspan="2"><center><h2>CONTEST RULES:</h2></center></th>
+			</tr>
+			<tr>
+				<td class="row1">1. </td>
+				<td>
+					Applicants must be between the age of 13 and 35 and reside in the Waterloo Region.
+				</td>
+			</tr>
+			<tr>
+				<td class="row1">2. </td>
+				<td>
+					Applicants must agree to Trusted Clothes posting their submission on the Internet.
+				</td>
+			</tr>
+			<tr>
+				<td class="row1">3. </td>
+				<td>
+					All valid submissions must include a photograph of an outfit constructed via second hand items. Photographs should be posted to their Instagram and tagged (see above). The submissions will be evaluated by the number of likes received.
+				</td>
+			</tr>
+			<tr>
+				<td class="row1">4. </td>
+				<td>
+					Blog entries should be between 500 to 1500 words. They must be original compositions AND should contain an attention grabbing title and conform to conventional writing standards. Please no emoticons, or short form SMS text. Blogs will be evaluated in two criterias: i) Number of people who view and read the blog ii) Assessment of quality performed by a professional journalist.
+				</td>
+			</tr>
+			<tr>
+				<td class="row1">5. </td>
+				<td>
+					Submission deadline is <b>May 15th at 11:59 p.m.</b> All entries should be sent to contests@trustedclothes.com. Must include the applicant's name, age, preferred contact information and postal address.
+				</td>
+			</tr>
+			<tr>
+				<td class="row1">6. </td>
+				<td>
+					Prizes will be awarded on May 31st. <b>1st place - $250, 2nd place $100, third place $50.</b> Cheques must be retrieved from Trusted Clothes located at Suite 214, 283 Duke St. W, Kitchener. 
+				</td>
+			</tr>
+		</table>
+
+	</article>
+	<!-- --------------------------------Footer-----------------------------------------------!>
+<!--Social Media Footer-->
+	<footer>
+		<!--#include file="SSI/footer.html" -->
+	</footer>
+</body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js "></script>
+<script src="js/jquery-3.1.1.min.js "></script>
+<script src="js/bootstrap.min.js "></script>
+<script src="js/socialMediaIcons2.js "></script>
+
+</html>

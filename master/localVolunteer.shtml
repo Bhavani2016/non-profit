@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trusted Clothes:Local Volunteers</title>
+    <!--#include file="SSI/head_tag.html" -->
+<style>
+    #desc {
+        padding-top: 1em;
+        width:100%;font-size:19px;text-align:center;
+    }
+    li {
+        list-style-type: none;
+    }
+    
+	.jumbotron .container-fluid .media {
+		position: relative !important;
+		left:105px;
+	}
+    
+    .contentPart-center2
+    {
+    	width:65%; 
+        margin:0 auto;
+        /*padding-left:10em;*/ 
+        padding-right:0.7em; 
+        padding-top:10px;
+        text-align:left; 
+        float:none; 
+        text-shadow: 1px 1px black;
+    }
+    
+    .row{
+        padding-left:0px !important; 
+        padding-right:0px!important;
+    }
+    .main_text {
+    	font-size: 2.5em;
+    	padding-top: 30px;
+    	line-height: 2.0em;
+    	font-weight:bold;
+    	color:rgb(231, 239, 220);
+    	font-family:'lato light','lato';
+        text-shadow: 1px 1px black;
+
+    }
+
+    #volunteer-block-1{
+        background-image: linear-gradient(rgba(137, 178, 82, 0.15),rgba(137, 178, 82, 0.15)),url("./images/local-section-3-dark.jpg");
+    }
+    #volunteer-block-2
+    {
+        background-image:url(./images/img_9972-dark.jpg);
+    }
+    th  {
+        padding: 5em;
+    }
+
+    .gformIframe{
+        padding-left:0px; 
+        padding-right:0px
+    }
+
+    .freebirdFormviewerViewFormBanner{
+    	height: 10px;
+    }
+        .adj-line {
+            margin: 0;
+            padding: 0;
+        }
+        b.small {
+        line-height: 70%;
+    }
+     /*For embedded sytles*/
+    }
+</style>
+</head>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<body>
+
+<!--Add the URL for the landing page picture  -->
+    <div class="jumbotron container-full" style="background-image: url(./images/kw.jpeg);background-position: center center;">	
+	
+        <!--#include file="SSI/nav_bar.html" -->
+        <h1 class="pageName">Local Volunteers</h1>
+
+    </div>	
+<!-- --------------------------------End of Navigation---------------------------------->
+    <div class="container" id="services">
+
+        <div class="row features">
+                <div class="col-lg-4 text-center">
+                    <div class="single-fet ">
+                        <div class="r-icon">
+                            <img src="./images/c-sustainable.png" />
+                        </div>
+                        <h2>Finding what works in your area</h2>
+                        <p>Local awareness starts in your neighborhood. Letting others around you know the alternatives to shopping in a mall and where they can find ethically produced garment in their area is the first step to a change.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="single-fet">
+                        <div class="r-icon">
+                            <img src="./images/c-ethical.png" />
+                        </div>
+                        <h2>Where does it start</h2>
+                        <p>Educate yourself and your community about why it is important to know about the clothes you put on your back&#46; It is important to know where a shirt comes from and where it will end&#46;  Come work with us to educate those around you and to get educated by those around you&#46;  Education does not just start and stop at school&#46;</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="single-fet">
+                        <div class="r-icon">
+                            <img src="./images/c-healthy.png" />
+                        </div>
+                        <h2>Your first step</h2>
+                        <p>Start saving money and make some goals. Don’t buy anything new from a store for a month. For six months. For a year. Try making your own clothes. Tell your friends. Start making the small adjustments needed to live the sustainable life you were meant to live.</p>
+                    </div>
+                </div>
+        </div>
+        <!--#include file="SSI/tc_about.html" -->
+    </div>
+
+<section class="container-fluid" style="display: table;" id="volunteer-section">
+	<div id="volunteer-block-1">
+		<p class="main_text"><span><span style="font-size: 3em;" class="green-font">D</span>o you live in the <b class="green-font";">Kitchener-Waterloo and Cambridge</b> area&#63; We'd love to hear from you! We have many on-site volunteering opportunities available&#33; From bloggers to event organizers to web designers&#59; everyone can find ways to contribute to our cause!</span></p>
+
+        <br/>
+        <a 
+            class="volunteer-button" 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdpov0znKGAVVaqryLIDncv_HFRydk50fvc3SnIDEyzjzXlCA/viewform?embedded=true"
+            target="_blank" 
+        >
+            SIGN UP NOW
+        </a>
+        <br/><br/><br/><br/>
+	</div>
+	<div 
+        class="container-fluid contentPart-center2" 
+        id="volunteer-block-2" 
+    >
+        <!--#include file="SSI/volunteer_page_footer.html" -->
+    </div>
+</section>
+<!--Social Media Footer-->
+    <footer>         
+        <!--#include file="SSI/footer.html" -->
+    </footer>
+    </body>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/socialMediaIcons2.js"></script>
+
+</html>
+ 

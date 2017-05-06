@@ -1,0 +1,330 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Trusted Clothes:Clothing Swap</title>
+	<!--
+		Modified by Brian Chaves
+		Modified on April 19, 2017
+	-->
+	<!--#include file="SSI/head_tag.html" -->
+<style>
+ /*For embedded sytles*/
+	
+/* clear float*/
+.clearfix:after{content:"";display:block;clear:both;}
+
+	/*float*/
+	.fl{float:left;}
+	.fr{float:right;}
+	footer ul {
+		margin-left: 0em;
+	}
+	
+#section2
+{
+	border-radius: 5px;
+	/*background-image:url(./images/world.jpg);*/
+	width:100%;
+	height: auto;
+	padding: 40px;
+	background-size:initial 100%;
+}
+
+#Section2 .col-sm-5 h4{
+	margin:20px;
+}
+
+#Section2 .col-sm-5 p, ul{
+	margin:20px;
+}
+h2 {
+	margin-bottom: 2px;
+}
+#desc {
+	font-size: 1.0em;
+	font-weight: 300;
+}
+
+.flex-container {
+	padding: 0;
+	margin: 0;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+	justify-content: center;
+	align-content: stretch;
+	align-items: flex-start;	
+}
+.flex-item {
+	min-width: 200px;
+	max-width: 400px;
+	flex-basis: auto;
+	flex-grow: 1;
+	margin: auto;
+}
+.flex-item p {
+	font-size: 1em;
+	font-weight: 400;
+	
+}
+.flex-itme h3 { 
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 1px 1px #000;
+}
+#mc_embed_signup {
+	background:#fff; 
+	width:75%; 
+}
+
+#next-clothes-swap
+{
+	width:30%;
+}
+
+.jumbotron .container-fluid .media{
+	position: relative !important;
+	left:105px;
+}
+
+#mediapos {
+	position:  absolute;  !important
+	left: 80px; !important
+	right: 0;
+}
+
+.embed-responsive-16by9 {
+	left: 6em;
+	width: 974px;
+	height: auto;
+}
+.map-responsive{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+.map-responsive iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+#home
+{
+	background-image: url(./images/rawpixel-com-196464.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.video-block
+{
+	width: 49%;
+	display: inline-block;
+	//margin: 20px;
+}
+#next-event-section
+{
+	//vertical-align: middle;
+	display: block;
+	background-image: url(./images/francis-duval-37755.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+}
+.next-event-block
+{
+	display: inline-block;
+	width: 49%;
+	height: 500px;
+	color: white;
+	vertical-align: middle;
+	text-align: center;
+}
+#next-event-block-1
+{
+	margin: 0px;
+}
+#next-event-block-2
+{
+	 background-color: rgba(0,0,0,0.5);
+	 margin: 0px;
+}
+#signup-block
+{
+	background-color: rgba(255,255,255,0.75);
+	text-align: center;
+	color: #666666;
+	margin: 0px;
+}
+#signup-block input[type=text]
+{
+	height: 24px;
+	width: 28%;
+	margin: 2%;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+iframe
+{
+	width:360px;
+	height: 202px;
+}
+@media screen and (max-width: 720px) {
+    .video-block
+	{
+		width: 100%;
+		display: inline-block;
+	}
+	.next-event-block
+	{
+		width: 100%;
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 600px){
+	#signup-block input[type=text]
+	{
+		width: 90%;
+		margin: 5%;
+	}
+}
+/*l
+#next-clothes-swap :not(h3)
+{
+	font-size: 12px;
+}*/
+
+</style>
+</head>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<body>
+
+<!--Add the URL for the landing page picture  -->
+	<div class="jumbotron container-full" id="home">		
+	
+		<!--#include file="SSI/nav_bar.html" -->
+		<h1 class="pageName">Clothing Swap</h1>
+  
+	</div>	
+<!-- --------------------------------End of Navigation---------------------------------->
+<div class="container content-page">
+	<!-- Begin MailChimp Signup Form DO NOT REMOVE
+	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		
+		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>-->
+
+	<div class="flex-container" id="section2">
+
+		<div class="flex-item">  <!--Flex container for page content and the next two swaps -->
+			<br>
+			<h3 class="green-font">Join us for one of our monthly Clothes Swap&#33;</h3>
+			<br>
+			<p>Trusted Clothes and The Kidney Foundation of Canada have partnered together again to organize a FREE CLOTHES SWAP&#33;
+			<br>
+			<br>Bring your gently used, clean clothes that you don&#146;t want anymore and leave with new &#40;to you&#41; stuff&#33;
+			<br>The event is COMPLETLY FREE and aims to raise awareness about textile waste and how our clothes affect the environment&#46;
+			<br>You can swap menswear&#44; womenswear&#44; children&#146;s clothes&#44; jackets&#44; shoes and accessories&#46; Please invite your friends&#33;</p><br>
+		</div>
+	</div>
+
+	<section id="video-section">
+		<h2>Check out our past Clothes Swap</h2>
+		<div class="video-block">
+			<div class="embed-responsive embed-responsive-16by9">    
+				<iframe 
+					src="https://www.youtube.com/embed/me2XItuZ6MI" 
+					frameborder="0"
+				>
+				</iframe>
+				<a class="hidden" href="http://www.youtube.com/embed/me2XItuZ6MI?rel=0&autoplay=1">
+					<br/>Watch Full Screen
+				</a>
+
+				</br>
+			</div>
+		</div>
+		<div class="video-block">
+			<div class="embed-responsive embed-responsive-16by9">    
+				<iframe 
+					src="https://www.youtube.com/embed/me2XItuZ6MI" 
+					frameborder="0"
+				>
+				</iframe>
+				<a class="hidden" href="http://www.youtube.com/embed/me2XItuZ6MI?rel=0&autoplay=1">
+					<br/>Watch Full Screen
+				</a>
+
+				</br>
+			</div>
+		</div>
+	</section>
+   
+	<section id="next-event-section">
+		<div class="next-event-block" id="next-event-block-1">
+			<h1>Next Event</h1>
+			Saturday, April 22<br/>
+			10:30AM to 1:30PM<br/>
+			Kitchener Waterloo Collegiate and Vocational School<br/>
+			787 King St W. Kitchener, ON, N2G 1E3<br/>
+			Insert Map here:) :( :)
+
+		</div>
+		<div class="next-event-block" id="next-event-block-2">
+			<h1>Next Scheduled Clothes Swap</h1>
+			May 27<br/>
+			June 24
+			</ul>
+		</div>
+		<div id="signup-block" >
+			<h1 class="green-font">Subscribe</h1>
+			<h5>Get Clothing Swap Notifications</h5>
+			<br/>
+			<form>
+				<input type="text" name="email" placeholder="Email">
+				<input type="text" name="first-name" placeholder="First name">
+				<input type="text" name="last-name" placeholder="Last Name">
+				<br/><br/>
+				<input type="submit" name="submit" value="Subscribe">
+			</form>
+			<br/>
+		</div>
+	</section>   
+</div>
+
+<!-- --------------------------------Footer-----------------------------------------------!>
+<!--Social Media Footer-->
+	
+	<footer>         
+		<!--#include file="SSI/footer.html" -->
+	</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+
+	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/socialMediaIcons2.js"></script>
+	<script>
+	//$(function(){
+	  //  $('.top-menu .nav > li:nth-child(5)> a,.top-menu .nav > li:nth-child(1)> a ').click(function(){
+		//    window.open(this.href);
+		//    return false;
+	//    });
+	//});	
+	</script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--#include file="SSI/head_tag.html" -->
+    <style>
+        .question {
+            width: 90%;
+            font-size: 2em;
+            background-color: rgb(137, 178, 82);
+            text-shadow: none;
+            border-radius: 25px;
+        }
+        
+        #content_container details {
+            text-align: center;
+        }
+        
+        details summary::-webkit-details-marker {
+            display: none;
+        }
+        
+        .info {
+            font-size: 1em;
+            margin: 0 5% 0 5%;
+        }
+        
+        @media (min-width: 600px) and (max-width: 768px) {
+            .question {
+                font-size: 22px;
+            }
+        }
+        
+        @media (min-width: 321px) and (max-width: 600px) {
+            .question {
+                font-size: 16px;
+            }
+        }
+        
+        @media (max-width: 320px) {
+            .question {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+
+<body>
+    <!--Add the URL for the landing page picture  -->
+    <div class="jumbotron container-full" id="home" style="background: url('./images/Capture3.jpg');
+            background-position: center center; max-height: 630px;">
+        <!--#include file="SSI/nav_bar.html" -->
+        <h1 class="pageName">Frequently Asked Questions</h1> </div>
+    <!-- --------------------------------End of Navigation---------------------------------- -->
+    <div id="content_container" class="container-fluid">
+        <details>
+            <!-- Contains all info -->
+            <summary>
+                <h1 class="btn btn-success question">What is Trusted Clothes?</h1></summary>
+            <!-- Question title -->
+            <!-- Answer -->
+            <p class="info"> We are a not-for-profit organization advocating for the clothing and fashion industry to become more ethical, sustainable and health-conscious. We advocate for workers' rights in garment factories around the world. We advocate for clothing that produces less pollution and waste on our planet. We advocate for clothing that are healthy for our bodies and minds. We advocate for positive change inside the garment and clothing industry.</p>
+        </details>
+        <details>
+            <!-- Contains all info -->
+            <summary>
+                <h1 class="btn btn-success question">Why focus on clothes?</h1></summary>
+            <!-- Question title -->
+            <!-- Answer -->
+            <p class="info"> The global apparel market is valued at 3 trillion dollars annually and accounts for 2 percent of the world's Gross Domestic Product (GDP). Almost 60 million people were employed in the textile & clothing manufacturing sector in 2014. Like oil, it is one of the most profitable industries on the planet. Yet it is also one of the most exploitative and dirty industries in the world. We believe we can change that. </p>
+        </details>
+        <details>
+            <!-- Contains all info -->
+            <summary>
+                <h1 class="btn btn-success question"> How can I apply to work?</h1></summary>
+            <!-- Question title -->
+            <!-- Answer -->
+            <p class="info"> You can apply to many different departments at Trusted Clothes. Just follow the link to the volunteer sign-up page.</p>
+        </details>
+        <details>
+            <!-- Contains all info -->
+            <summary>
+                <h1 class="btn btn-success question">What type of work can I do at Trusted Clothes?</h1></summary>
+            <!-- Question title -->
+            <!-- Answer -->
+            <p class="info"> Depends on what position you have applied for. For the Content department, it would be mainly writing intensive: writing blogs and researching on topics. For some of you, video shooting and editing could be an option as well. For HR, it would be mostly administrative duties: creating and updating potential job post on online job boards, responding to new volunteers' emails, on-boarding new volunteers on procedures. We also have a communications and IT department. Communications is essentially the public face of Trusted Clothes, so if you want to come and represent us, we're always glad to have you! IT is the tech guys: all of our hardware and networking issues are resolved through them.</p>
+        </details>
+        <details>
+            <!-- Contains all info -->
+            <summary>
+                <h1 class="btn btn-success question">Will I be paid for working at Trusted Clothes?</h1></summary>
+            <!-- Question title -->
+            <!-- Answer -->
+            <p class="info"> All of our positions are on an unpaid, volunteer basis for now. In the future Trusted Clothes will have a hiring section on the website, so stay tuned! </p>
+        </details>
+        <details>
+            <!-- Contains all info -->
+            <summary>
+                <h1 class="btn btn-success question">What can I gain as a volunteer?</h1></summary>
+            <!-- Question title -->
+            <!-- Answer -->
+            <p class="info">Invaluable work experience in your chosen field as well as life experience. We will also give you a kick-ass letter of recommendation should you find paid employment elsewhere. And did we mention frequent free food and cake? And the knowledge that you have done some good in this world.</p>
+        </details>
+        <details>
+            <!-- Contains all info -->
+            <summary>
+                <h1 class="btn btn-success question"> Where can I shop for ethical clothes?</h1></summary>
+            <!-- Question title -->
+            <!-- Answer -->
+            <p class="info"> Trusted Clothes maintains an updated list of all ethical and organic clothing shops in Canada. We will soon have it available on our website, so stay tuned!</p>
+        </details>
+        <details>
+            <!-- Contains all info -->
+            <summary>
+                <h1 class="btn btn-success question">  Where can I learn more about ethical fashion?</h1></summary>
+            <!-- Question title -->
+            <!-- Answer -->
+            <p class="info"> On the <a href="www.trustedclothes.com/blog/">Trusted Clothes blog</a> we have over 700 articles on ethical, sustainable and healthy fashion. We maintain one of the most comprehensive, multi-topic blog sites about the clothing and fashion industry.in the world, You can learn everything from women's labour rights in the garment sector to applications of nanotechnology in clothing. </p>
+        </details>
+        <!--
+        -->
+    </div>
+    <!-- --------------------------------Footer-----------------------------------------------!>
+<!--Social Media Footer-->
+    <footer>
+        <!--#include file="SSI/footer.html" -->
+    </footer>
+</body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js "></script>
+<script src="js/jquery-3.1.1.min.js "></script>
+<script src="js/bootstrap.min.js "></script>
+<script src="js/socialMediaIcons2.js "></script>
+<script>
+    //$(function(){
+    //  $('.top-menu .nav > li:nth-child(5)> a,.top-menu .nav > li:nth-child(1)> a ').click(function(){
+    //    window.open(this.href);
+    //    return false;
+    //    });
+    //});
+</script>
+
+</html>

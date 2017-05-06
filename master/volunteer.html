@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Trusted Clothes</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<!--icon-->
+	<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+	<!--Lato font load http://www.cssfontstack.com/Lato --Do not remove -->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+
+	<!--JQuery and Bootstrap scripts load moved to bottom-->
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+
+	<!-- Main Sytle Sheets -->
+	<link href="css/trustedClothesStyles.css" rel="stylesheet" type="text/css" />
+	<link href="css/SocialMediaIcons.css" rel="stylesheet" type="text/css" />
+	<link href="css/mobilemedia.css" rel="stylesheet" type="text/css" />
+
+	<!--Need for the social media icons -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!--Google Analytics -->
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-69533067-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+	<style>
+		/*For embedded sytles*/
+		
+		.row {
+			margin-left: 0px !important;
+			margin-right: 0px !important;
+		}
+		
+		#subVolunteer {
+			width: 90%;
+			margin: 0 auto;
+			margin-bottom: 30px;
+		}
+		
+		.subVolunteerHolder {
+			width: 96%;
+			@*display: inline-block;
+			display: flex;
+			*@ justify-content: center;
+			align-items: center;
+			@*flex-direction: column;
+			*@ height: 342px;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		
+		#subVolunteerImg1 {
+			overflow-x: hidden;
+			overflow-y: hidden;
+			background-image: linear-gradient(to bottom right, rgba(37, 217, 232, 0.4), rgba(220, 66, 37, 0.4));
+			text-align: center;
+			background-repeat: no-repeat no-repeat;
+			background-position: center center;
+			background-size: cover;
+			margin: auto 0;
+		}
+		
+		#subVolunteerImg1 .volunteer-button {
+			border: 2px solid #fff;
+			color: #FD746C;
+			background-color: #fff;
+		}
+		
+		#subVolunteerImg1 .volunteer-button:hover {
+			color: #fff;
+			background-color: #FD746C;
+		}
+		
+		#subVolunteerImg2 {
+			overflow-x: hidden;
+			overflow-y: hidden;
+			background-image: linear-gradient(rgba(255, 229, 36, 0.2), rgba(15, 15, 99, 0.1));
+			text-align: center;
+			background-repeat: no-repeat no-repeat;
+			background-position: center center;
+			background-size: cover;
+			margin: auto 0;
+		}
+		
+		#subVolunteerImg2 .volunteer-button {
+			border: 2px solid #fff;
+			color: #fee23e;
+			background-color: #fff;
+		}
+		
+		#subVolunteerImg2 .volunteer-button:hover {
+			color: #fff;
+			background-color: #ffe23e;
+		}
+		
+		#subVolunteerImg3 {
+			overflow-x: hidden;
+			overflow-y: hidden;
+			background-image: linear-gradient(rgba(15, 15, 99, 0.2), rgba(15, 15, 99, 0.1));
+			text-align: center;
+			background-repeat: no-repeat no-repeat;
+			background-position: center center;
+			background-size: cover;
+		}
+		
+		#subVolunteerImg3 .volunteer-button {
+			border: 2px solid #fff;
+			color: #337ab7;
+			background-color: #fff;
+		}
+		
+		#subVolunteerImg3 .volunteer-button:hover {
+			color: #fff;
+			background-color: #337ab7;
+		}
+		
+		#subVolunteerImg4 {
+			overflow-x: hidden;
+			overflow-y: hidden;
+			background-image: linear-gradient(rgba(122, 255, 122, 0.4), rgba(40, 15, 15, 0.35));
+			text-align: center;
+			background-repeat: no-repeat no-repeat;
+			background-position: center center;
+			background-size: cover;
+			margin: auto 0;
+		}
+		
+		#subVolunteerImg4 .volunteer-button {
+			border: 2px solid #fff;
+			color: rgb(137, 178, 82);
+			background-color: #fff;
+		}
+		
+		#subVolunteerImg4 .volunteer-button:hover {
+			color: #fff;
+			background-color: rgb(137, 178, 82);
+		}
+		
+		.subVolunteerHolder .innerContent {
+			overflow-x: hidden;
+			overflow-y: hidden;
+			height: 25em;
+		}
+		
+		.innerContent>p {
+			letter-spacing: 0.8px;
+			text-transform: none;
+			font-size: 25px;
+			display: block;
+			position: relative;
+			height: 85%;
+			width: 96%;
+			margin: 0 auto;
+			padding-top: 45px;
+			font-family: lato;
+			font-weight: 100;
+			color: black;
+		}
+		
+		.volunteer-button {
+			border: 2px solid #fff;
+			font-size: 21px;
+			font-family: "lato";
+			font-weight: 900;
+			padding: 21px 25px 21px 25px;
+			cursor: auto;
+			letter-spacing: 3px;
+			line-height: 21px;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 0%;
+			position: relative;
+		}
+		
+		.volunteer-button:hover {
+			text-decoration: none;
+			text-decoration-color: none;
+		}
+		
+		#volunteer-row {
+			width: 94%;
+			color: black;
+		}
+		
+		#no-padding {
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+			padding-bottom: 6px;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		#titl {
+			text-align: center;
+			color: #89b252;
+			font-size: 4em;
+		}
+		
+		#transferableSkills {
+			background-image: linear-gradient(rgba(137, 178, 82, 0.5), rgba(137, 178, 82, 0.4)), url("./images/books-student-study-education.jpg");
+			overflow-x: hidden;
+			overflow-y: hidden;
+			text-align: center;
+			background-repeat: no-repeat no-repeat;
+			background-position: center center;
+			background-size: cover;
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+			text-shadow: 1px 1px #000;
+		}
+		
+		.contentPart-center {
+			/*do not add height value, it affects the forms and the footer on iphone*/
+			max-width: 100%;
+			padding-left: 1em;
+			padding-right: 1em;
+			text-align: left;
+			float: none;
+			overflow-y: hidden;
+		}
+		
+		.contentPart-center2 {
+			width: 78%;
+			margin: 0 auto;
+			padding-left: 1em;
+			padding-right: 1em;
+			height: 42em;
+			text-align: center;
+			float: none;
+			padding-top: 11px;
+			padding-bottom: 85px;
+		}
+		
+		#style-stuff2 {
+			margin-top: 5px !important;
+			margin-bottom: 5px !important;
+			display: block;
+		}
+		
+		#style-stuff3 li {
+			font-size: 19px !important;
+			display: block;
+		}
+		
+		.nobullet {
+			display: block;
+		}
+		
+		.jumbotron {
+			background-image: url("./images/volunteer-clipart-free-volunteer-appreciation-clipart-free-clip-art-images.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center;
+			max-height: 350px;
+			min-height: 150px;
+			margin-top: 10%;
+			margin-bottom: 0;
+		}
+
+	</style>
+</head>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+
+<body>
+
+
+
+	<!--Add the URL for the landing page picture  -->
+	<div class="jumbotron">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="index.shtml"><img src="./images/trusted-clothes-white-croppedlogo.png" height="75" alt="Trusted Clothes">
+						<span class="whiteHead">SUSTAINABLE&#8226;ETHICAL&#8226;HEALTHY</span></a>
+					<!--<a class="navbar-brand" href="#">WebSiteName</a>-->
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown-header">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">About<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="./AboutUs.shtml">About Us</a></li>
+								<li><a href="./partners.shtml">Partners</a></li>
+								<!--<li><a href="#">Statement From Board</a></li>-->
+							</ul>
+						</li>
+						<li class="dropdown-header">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Volunteer!<span class="caret"></span>
+                            <ul class="dropdown-menu" role="menu">
+                                  <li><a href="localVolunteer.shtml">Local (KW area)</a></li>
+						<li><a href="remoteVolunteer.shtml">Remote</a></li>
+						<li><a href="universityCollege.shtml">University and College</a></li>
+						<li><a href="highSchoolStudent.shtml">High School</a></li>
+					</ul>
+					</a>
+					</li>
+					<li class="dropdown-header">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Events<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="clothingSwap.shtml">Clothes Swap</a></li>
+							<!--<li><a href="stuffyDrive.html">Stuffy Drive</a></li>-->
+						</ul>
+					</li>
+					<li class="nav-adjust"><a href="http://www.trustedclothes.com/blog/" target="_blank">BLOG</a></li>
+					<li class="active"><a href="contactUs.shtml" target="_self">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!--<div class="container">  Top page container
+              <h3>Basic Navbar Example</h3>
+              <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+        </div>-->
+	</div>
+	<!-- --------------------------------End of Navigation------------------------------------>
+
+	<div id="Section2C">
+		<h1 id="titl">Volunteer</h1>
+		<br>
+		<div class="container-full" id="subVolunteer">
+			<center>
+				<div class="row" style="margin-bottom:1px;" id="volunteer-row">
+					<div class="col-lg-3 col-md-3" id="no-padding">
+						<div class="subVolunteerHolder" id="subVolunteerImg4">
+							<div class="innerContent">
+								<p>Live in the Kitchener/Waterloo region and want to contribute? Click below</p>
+								<a href="localVolunteer.shtml" target="_self" class="volunteer-button">LOCAL</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3" id="no-padding">
+						<div class="subVolunteerHolder" id="subVolunteerImg1">
+							<div class="innerContent">
+								<p>Don't live in the Kitchener/Waterloo region but still want to contribute? Click below</p>
+								<a href="remoteVolunteer.shtml" target="_self" class="volunteer-button">REMOTE</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3" id="no-padding">
+						<div class="subVolunteerHolder" id="subVolunteerImg3">
+							<div class="innerContent">
+								<p>Are you a college or university students looking for an internship? Click below</p>
+								<a href="universityCollege.shtml" target="_self" class="volunteer-button">COLLEGE</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3" id="no-padding">
+						<div class="subVolunteerHolder" id="subVolunteerImg2">
+							<div class="innerContent">
+								<p>Are you in high school? Looking to fill out your volunteer hours? Click below</p>
+								<a href="highSchoolStudent.shtml" target="_self" class="volunteer-button">SCHOOL</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</center>
+		</div>
+	</div>
+	<div id="Section3" style="color:white;">
+		<div class="row">
+			<div class="col-lg-12" id="transferableSkills" style="background-color:rgba(123, 62, 56,.88);">
+				<div class="contentPart-center2">
+					<div>
+						<h4><strong>Be part of a team that&#39;s changing the world - No experience required!</strong></h4>
+						<b>Get in <strong>touch</strong></b>
+						<h1 id="style-stuff2"><b> today&#33;</b></h1>
+						<li class="nobullet"><i class="fa fa-phone"></i> <strong>Phone:  </strong>
+							<h3><a class="mobile" href="tel:226-476-1438">  (226) 476-1438</a></h3><span class="desktop"></span><strong> YOU CAN ALSO TEXT US HERE</STRONG></li>
+						<p>We can use help in many disciplines including:</p>
+						<ul id="style-stuff3">
+							<li>Reading/Writing</li>
+							<li>Social Media</li>
+							<li>Accounting</li>
+							<li>Design</li>
+							<li>Photography &amp; Videography
+								<li>Web Development</li>
+								<li>Administration</li>
+								<li>Many other Disciplines</li>
+						</ul>
+						<li class="nobullet">If you are interested to know more about our opportunities or would like to send us your resume&#44; please email us&#46;</li>
+						<li class="nobullet"><i class="fa fa-envelope"></i> <strong>Email:  </strong>
+							<h3> <a href="mailto:volunteers@trustedclothes.com">volunteers@trustedclothes.com</a></h3></li>
+					</div>
+				</div>
+			</div>
+
+			<!--<div class="col-lg-6" id="styling-form"style="background-color:#92BFB1;"> <!--do not add height value, it affects the forms and the footer on iphone-->
+			<!--<div class="contentPart-center" ><!--do not add height value, it affects the forms and the footer on iphone-->
+			<!--<center>
+						<b><h1>Join now</h1></b>
+						<br/>
+						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeeGS-5B8oDZYDhwMbwluv5PU1rv9W9bV6iPxNJLwWqWi16UA/viewform?embedded=true" 
+						width="100%" height="490px"	type="text/html" frameborder="0" marginheight="0" marginwidth="1">Loading...</iframe>
+					</center>
+				</div>
+			</div> -->
+		</div>
+	</div>
+
+
+
+	<!-- --------------------------------Footer----------------------------------------------->
+	<!--Social Media Footer-->
+	<footer>
+
+		<div class="container-fluid" id="socialMedia">
+			<p class="socialText">Stay <span style="color:#89b252;">Connected.</span> Get the latest details on our swaps, how to <a title="Become a Volunteer" href="./volunteer.html" id="style-stuff011"><span id="style-stuff012">volunteer</span></a> and much more!</p>
+			<div id="outer-social">
+				<div id="inner-social">
+					<ul>
+						<li onclick="window.open('http://www.facebook.com/TrustedClothes', '_blank')" title="Facebook">
+							<a class="fa fa-facebook fa-1x" href="http://www.facebook.com/TrustedClothes" target="_blank"></a>
+						</li>
+
+						<li onclick="window.open('http://www.twitter.com/TrustedClothes', '_blank')" title="Twitter">
+							<a class="fa fa-twitter fa-1x" href="http://www.twitter.com/TrustedClothes" title="Twitter" target="_blank"></a>
+						</li>
+
+						<li onclick="window.open('http://www.youtube.com/TrustedClothes', '_blank')" title="YouTube">
+							<a class="fa fa-youtube fa-1x" href="http://www.youtube.com/TrustedClothes" title="YouTube" target="_blank"></a>
+						</li>
+
+						<li onclick="window.open('http://www.instagram.com/TrustedClothes', '_blank')" title="Instagram">
+							<a class="fa fa-instagram fa-1x" href="http://www.instagram.com/TrustedClothes" title="Instagram" target="_blank"></a>
+						</li>
+
+						<li onclick="window.open('https://plus.google.com/+TrustedClothes', '_blank')" title="Google-plus">
+							<a class="fa fa-google-plus fa-1x" href="https://plus.google.com/+TrustedClothes" title="Google-plus" target="_blank"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<section class="footer-holder container-fluid">
+			<div class="footer-copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6 col-md-4">
+							<h4>EXPLORE</h4>
+							<a class="footmenu" href="volunteer.html">Volunteer</a>
+							<br>
+							<a class="footmenu" href="contactUs.shtml">Contacts</a>
+							<br>
+							<a class="footmenu" href="faq.shtml">FAQ</a>
+						</div>
+						<div class="col-xs-6 col-md-4">
+							<h4>VISIT</h4>
+							<a class="footmenu" href="contactUs.shtml">Directions</a>
+							<br>
+							<a class="footmenu" href="clothingSwap.shtml">Events</a>
+							<br>
+						</div>
+						<div class="col-xs-12 col-md-4" id="footcopy">
+							<img alt="Trusted Clothes" src="./images/logo.png" style="margin-bottom:30px;">
+							<br> &copy; 2017 Trusted Clothes
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
+</body>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/socialMediaIcons2.js"></script>
+<script>
+	//$(function(){
+	//  $('.top-menu .nav > li:nth-child(5)> a,.top-menu .nav > li:nth-child(1)> a ').click(function(){
+	//    window.open(this.href);
+	//    return false;
+	//    });
+	//});
+
+</script>
+
+</html>

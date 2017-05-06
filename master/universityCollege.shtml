@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>                  
+    <title>Trusted Clothes:University &amp; College Volunteers</title>
+    <!--#include file="SSI/head_tag.html" -->
+<style>
+ /*For embedded sytles*/
+        #desc {
+        padding-top: 1em;
+        width:100%;font-size:19px;text-align:center;
+    }
+    li {
+        list-style-type: none;
+    }
+    
+	.jumbotron .container-fluid .media {
+		position: relative !important;
+		left:105px;
+	}
+    #Section2
+	{
+		padding-top:1px;
+		padding-bottom:5px;
+		
+	}
+    	th	{
+		padding: 5em;
+	}
+.contentPart-center2{
+	width:65%; margin:0 auto;
+    padding-left:10em; padding-right:0.7em; padding-top:10px;
+    text-align:left; float:none; 
+    text-shadow: 1px 1px black;
+	}
+    
+.row{padding-left:0px !important; padding-right:0px!important;}
+.main_text {
+	font-size: 2.5em;
+	padding-top: 30px;
+	line-height: 2.0em;
+	font-weight:bold;
+	color:rgb(231, 239, 220);
+	font-family:'lato light','lato';
+    text-shadow: 1px 1px black;
+}
+
+#backgroundStyle1{
+    background-image: linear-gradient(rgba(137, 178, 82, 0.15),rgba(137, 178, 82, 0.15)),url("./images/books.jpg");
+	overflow-x:hidden; overflow-y:hidden;
+	text-align:center;
+    background-repeat: no-repeat no-repeat;
+	background-position: center center;
+	background-size: cover;
+    /*height: 520px;*/
+}
+.gformIframe{padding-left:0px; padding-right:0px}
+
+.freebirdFormviewerViewFormBanner{
+	height: 10px;
+}
+
+#section4BackgroundImage
+{
+	background-image:url(./images/back-to-school-1558997_1920-dark.jpg);
+	background-position: center;
+	background-size:cover;
+}
+    .adj-line {
+        margin: 0;
+        padding: 0;
+    }
+    b.small {
+    line-height: 70%;
+}
+#volunteer-block-1{
+    background-image: linear-gradient(rgba(137, 178, 82, 0.15),rgba(137, 178, 82, 0.15)),url("./images/books.jpg");
+}
+#volunteer-block-2
+{
+    background-image:url(./images/back-to-school-1558997_1920-dark.jpg);
+}
+
+</style>
+</head>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<body>
+
+<!--Add the URL for the landing page picture  -->
+    <div class="jumbotron container-full" id="home" style="background-image: url(./images/university.jpg);">		
+	
+        <!--#include file="SSI/nav_bar.html" -->
+        <h1 class="pageName">University and College Students</h1>
+  
+        <!--<div class="container">  Top page container
+              <h3>Basic Navbar Example</h3>
+              <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+        </div>-->
+    </div>	
+<!-- --------------------------------End of Navigation-------------------------------- --->
+	<div id="Section1">
+		<div class="container">
+        <!-- Example row of columns -->
+            <div class="row features">
+                <div class="col-lg-4 text-center">
+                    <div class="single-fet">
+                        <div class="r-icon">
+                            <img src="./images/c-sustainable.png" />
+                        </div>
+                        <h2>Awareness</h2>
+                        <p>Be aware of the impact and abuses the clothing industry has on the world. Be informed about the successes from people actively trying to change this industry, from inside and out.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="single-fet">
+                        <div class="r-icon">
+                            <img src="./images/c-ethical.png" />
+                        </div>
+                        <h2>Education</h2>
+                        <p>Be educated about ethical, sustainable and healthy alternative brands, the economics of fashion and the key domains of this industry.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="single-fet">
+                        <div class="r-icon">
+                            <img src="./images/c-healthy.png" />
+                        </div>
+                        <h2>Affirmative action</h2>
+                        <p>Connect conscious consumers and retailers, brands and manufacturers who provide sustainable, ethical and healthy alternatives to mainstream fashion as well as drive affirmative action from the grassroots. Starting with you. Your shopping habits, living habits, clothing habits.</p>
+                    </div>
+                </div>
+            </div><!----End of row features Div------>
+            <!--#include file="SSI/tc_about.html" -->  
+        </div>
+
+	<div class="clearfix"></div>
+<!------------------------------Break Point------------------------------------------------------------>
+<section class="container-fluid" style="display: table;" id="volunteer-section">
+    <div id="volunteer-block-1">
+        <p class="main_text"><span><span style="font-size: 3em;" class="green-font">L</span>ooking for an internship lasting three or four months? You put in the time and effort, and we will equip you with valuable in-field job experience from accounting, design, office administration and more.</span><br/><br/></p>
+
+
+            <br/>
+            <a 
+                class="volunteer-button" 
+                href="https://docs.google.com/forms/d/1SQQ_WxJyPhvOv1QBMZvwrArFOF1SJ82OuJt4IsBGa0Y/viewform?embedded=true"
+                target="_blank" 
+            >
+                SIGN UP NOW
+            </a>
+            <br/><br/><br/><br/>
+    </div>
+    <div 
+        class="container-fluid contentPart-center2" 
+        id="volunteer-block-2" 
+    >
+        <!--#include file="SSI/volunteer_page_footer.html" -->
+    </div>
+</section>        
+        
+<!-- --------------------------------Footer-----------------------------------------------!>
+<!--Social Media Footer-->
+        <footer>         
+            <!--#include file="SSI/footer.html" -->
+        </footer>
+    </body>
+    <script>
+
+    </script>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/socialMediaIcons2.js"></script>
+</html>

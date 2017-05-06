@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trusted Clothes:Partners</title>
+    <!--#include file="SSI/head_tag.html" -->
+<style>
+ /*For embedded sytles*/
+
+    img{padding-top: 0px; !important}
+    
+    p {
+		font-weight: 200;
+		font-size: 27px;
+		position: relative;
+	}
+
+	#partner-box {
+		min-height:160px;
+		position:relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border-style: groove;
+		padding-right:2px !important;
+		padding-left:2px !important;
+	}
+    	.row{
+		margin-left:0px !important;
+		margin-right:0px !important;
+	}
+    	.content-page{padding-right:1px !important;
+		padding-left:1px !important;}
+</style>
+</head>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<body>
+
+<!--Add the URL for the landing page picture  -->
+    <div class="jumbotron container-full" style="background-image: url(./images/clotheshanginginstreet.jpg);background-position: center center;">		
+	
+        <!--#include file="SSI/nav_bar.html" -->
+        <h1 class="pageName">Partners</h1>
+    </div>	
+<!-- --------------------------------End of Navigation------------------------------------>
+	<div class="container content-page" align="center">
+   		<div class="row">
+			<br>
+			<p>Trusted Clothes would like to thank all of our partners for their continued support</p>
+
+<p style="font-size: 19px;">We believe that&nbsp;it takes a community of dedicated partners to reach our goals</p>
+            <!--------------------------logos------------------------------------------>
+            <br>
+				<center class="row" id="row1">
+
+					<!--Google-->
+                    <div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/logo_2013_google.png" 
+                            alt="Google" 
+                            title="Google"
+                        >
+                    </div>
+
+                    <!--Microsoft-->
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/mircosoft.png" 
+                            alt="Microsoft" 
+                            title="Microsoft"
+                        >
+                    </div>
+
+
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/atlassian-logosvg.png" 
+                            alt="confluence" 
+                            title="Confluence"
+                        >
+                    </div>
+
+
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/uptown-woods.jpg" 
+                            alt="Uptown woods" 
+                            title="Uptown Woods"
+                        >
+                    </div>
+
+
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/community-edition-edit.jpg" 
+                            alt="community edition" 
+                            title="Community Edition"
+                        >
+                    </div>
+
+
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/kitchener-post-logo1.jpg" 
+                            alt="kitchner post" 
+                            title="Kitchener Post"
+                        >
+                    </div>
+				</center>
+					
+				<center class="row" id="row2">		
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/cbc-logo.png" 
+                            alt="CBC" 
+                            title="CBC"
+                        >
+                    </div>
+
+
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/kidney-foundation.gif" 
+                            alt="kidney foundation" 
+                            title="Kidney Foundation"
+                       >
+                    </div>
+
+
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/waterloo-chronicle.jpeg" 
+                            alt="waterloo chronicle" 
+                            title="Waterloo Chronicle"
+                        >
+                    </div>
+					
+
+                    <div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/more-than-half.png" 
+                            alt="more than a half" 
+                            title="More Then Half"
+                        >
+                    </div>
+
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/8399627_640x640.jpg" 
+                            alt="Alfaro Clubine" 
+                            title="Alfaro Clubine"
+                        >
+                    </div>
+
+
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/smallerssslogo.jpg" 
+                            alt="sustainable stragies Solutions" 
+                            title="Sustainable Strategies &amp; Solutions"
+                        >
+                    </div>
+				</center>
+					
+				<center class="row" id="row3">
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/dg-logocircle.png" 
+                            alt="DG Photography" 
+                            title="DG Photography"
+                        >
+                    </div>
+
+
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/organogold.png" 
+                            alt="Organo Gold" 
+                            title="Organo Gold"
+                        >
+                    </div>
+
+
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/aro-pro-3.png" 
+                            alt="arc pro" 
+                            title="Arc Pro"
+                        >
+                    </div>
+
+
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/hilary-gauld.jpg" 
+                            alt="hilary gauld" 
+                            title="Hilary Gauld"
+                        >
+                    </div>
+
+
+					<div 
+                        class="col-xs-6 col-sm-4 col-lg-2" 
+                        id="partner-box"
+                    >
+                        <img 
+                            src="./images/veritas-cafe.jpg" 
+                            alt="veritas cafe" 
+                            title="Veritas Café"
+                        >
+                    </div>
+					
+				</center>
+			<br>
+		</div>
+	</div>
+
+
+
+<!-- --------------------------------Footer-----------------------------------------------!>
+<!--Social Media Footer-->
+    <footer>         
+        <!--#include file="SSI/footer.html" -->
+    </footer>
+    </body>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/socialMediaIcons2.js"></script>
+    <script>
+    //$(function(){
+    //    $('.top-menu .nav > li:nth-child(5)> a,.top-menu .nav > li:nth-child(1)> a ').click(function(){
+    //        window.open(this.href);
+    //        return false;
+    //    });
+    //});	
+    </script>
+</html>

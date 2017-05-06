@@ -1,0 +1,225 @@
+<!--
+	Request a Speaker page
+	Created by Brian Chaves
+	Created on December 2 2016
+	Last Updated Jan 23, 2017
+-->
+<html>
+<head>
+	<style>
+		body
+		{
+			text-align: center;
+		}
+		.AlignRight
+		{
+			text-align: right;
+		}
+		.AlignCenter
+		{
+			text-align:center;
+		}
+		.Button
+		{
+			width:100%;
+		}
+		h3
+		{
+			text-align: center;
+		}
+		table
+		{
+			padding:25px
+		}
+		body
+		{
+			background-image:url(http://apps.trustedclothes.com/media/1187/the-audience-1254036_1920-bright.jpg);
+		}
+	</style>
+</head>
+<!---------------------------------------------Body------------------------------->	
+<body>
+	<h1 style="margin-top:150px;text-align:center">Request a speaker</h1>
+		
+	<center>
+		Request a trusted clothes representative to your event
+	</center>
+		
+	<center><form><table>
+		<tr>
+			<td><table>
+				<tr>
+					<td colspan="2">
+						<h3> Event</h3>
+					</td>
+				</tr>
+				<tr>
+					<td>Event Name</td>
+					<td><input type="text" id="event-name"/></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<h3>Contact info</h3>
+					</td>
+				</tr>
+				<tr>
+					<td class="AlignRight">First Name</td>
+					<td><input type="text" id="first-name"/></td>
+				</tr>
+				<tr>
+					<td class="AlignRight">Last Name</td>
+					<td><input type="text" id="last-name"/></td>
+				</tr>
+				<tr>
+					<td class="AlignRight">Email</td>
+					<td><input type="email" id="email"/></td>
+				</tr>
+				<tr>
+					<td class="AlignRight">Phone</td>
+					<td><input type="tel" id="phone"/></td>
+				</tr>
+				<tr>
+					<td class="AlignRight">Company</td>
+					<td><input type="text" id="company"/></td>
+				</tr>
+			</table></td>
+			<td><table>
+				<tr>
+					<td colspan="2">
+						<h3> Address</h3>
+					</td>
+				</tr>
+				<tr>
+					<td class="AlignRight">Venue </td>
+					<td><input type="text" id="venue"/></td>
+				</tr>
+				
+				<tr>
+					<td class="AlignRight">Street</td>
+					<td><input type="text" id="street-address"/></td>
+				</tr>
+				<tr>
+					<td class="AlignRight">City</td>
+					<td><input type="text" id="city"/></td>
+				</tr>
+				<tr>
+					<td class="AlignRight">Country</td>
+					<td>
+						<select id="country" onChange="countryChange()">
+							<option value="?" hidden="hidden">&#60;Select Country></option>
+							<option value="CAN">Canada</option>
+							<option value="US">United States</option>
+							<option value="other">Other</option>
+						</select>
+						<input type="text" id="country-text"/>
+					</td>
+				</tr>
+				<tr>
+					<td class="AlignRight"><span id="area-text">Province</span></td>
+					<td>
+						<input type="text" id="area"/>
+						<select id="province">
+							<option value="??" hidden="hidden">&#60;Select Province></option>
+							<option value="BC">British Columbia</option>
+							<option value="AB">Alberta</option>
+							<option value="SK">Saskatchewan</option>
+							<option value="MB">Manitoba</option>
+							<option value="ON">Ontario</option>
+							<option value="QC">Quebec</option>
+							<option value="NB">New Brunswick</option>
+							<option value="NS">Nova Scotia</option>
+							<option value="PE">Prince Edward Island</option>
+							<option value="NL">Newfoundland and Labrador</option>
+							<option value="YT">Yukon</option>
+							<option value="NT">Northwest Territories</option>
+							<option value="NU">Nunavut</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="AlignRight">Postal Code</td>
+					<td><input type="text" id="postal-code"/></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2">
+						<h3>Time</h3>
+					</td>
+				</tr>
+				<tr>
+					<td class="AlignRight">Date</td>
+					<td><input type="date" id="date"/></td>
+				</tr>
+				<tr>
+					<td class="AlignRight">Time</td>
+					<td><input type="time" id="time"/></td>
+					<!-- Timezone may be different -->
+				</tr>
+			</table></td>
+		</tr>
+		<tr>
+			<td class="AlignCenter"><input class="Button" type="submit"></td>
+			<td class="AlignCenter"><input class="Button" type="reset" onClick="resetButton()"></td>
+		</tr>
+	</table></form></center>
+				
+				
+	<!----------------------------------------- JavaScript ------------------------------------>			
+	<script type="text/javascript">
+		countryChange();
+		function countryChange()
+		{
+			var country=document.getElementById("country").value;
+					
+			if(document.getElementById("country").value=="CAN")
+			{
+				document.getElementById("area-text").innerHTML="Province";
+			}
+			else if(document.getElementById("country").value=="US")
+			{
+				document.getElementById("area-text").innerHTML="State";
+			}
+			else if(document.getElementById("country").value=="?")
+			{
+				document.getElementById("area-text").innerHTML="Region";
+			}
+			else
+			{
+				document.getElementById("area-text").innerHTML="";
+			}
+			
+			enable(document.getElementById("area"),country=="US");
+			visible(document.getElementById("area"),country=="US" || country=="?");
+			visible(document.getElementById("province"),country=="CAN");
+			visible(document.getElementById("country-text"),country=="other");
+					
+		}
+		function resetButton()
+		{
+			countryChange();
+		}
+		
+		function visible(item,flag)
+		{
+			if(flag)
+			{
+				item.removeAttribute("hidden");
+			}
+			else
+			{
+				item.setAttribute("hidden","hidden");
+			}
+		}
+		function enable(item,flag)
+		{
+			if(flag)
+			{
+				item.removeAttribute("disabled");
+			}
+			else
+			{
+				item.setAttribute("disabled","disabled");
+			}
+		}
+	</script>
+</body>

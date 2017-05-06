@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trusted Clothes:Contact Us</title>
+    <!--#include file="SSI/head_tag.html" -->
+<style>
+    
+ /*For embedded sytles*/
+ 
+img{border:none;}
+li{list-style:none;}
+
+input,select,textarea{outline:none; border:none; background-color:none;}
+
+
+a{text-decoration:none; color:#656565;}
+
+/* clear float*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+
+/*float*/
+.fl{float:left;}
+.fr{float:right;}
+    
+/*Section2*/
+#Section2 {
+	border-radius: 5px;
+	background:url(./images/world.jpg);
+	width:100%;
+	padding: 0.1px;
+	background-size:initial 100%;
+	}
+
+#Section2 img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 4%;
+}
+
+#Section2 h4 {
+    color:rgb(129, 182, 84);
+    padding: 4%;
+}
+
+#Section2 p {
+    padding: 4%;
+    height: 40%;
+	text-shadow:0px 0px 1px rgba(175,173,173,0.8);
+}
+
+#Section2 a {
+    padding: 4%;
+    color:rgb(129, 182, 84);
+	text-shadow:0px 0px 1px rgba(129, 182, 84,0.7);
+}
+	
+/*Section3*/
+#Section3 .col-sm-5 h4 {
+	margin:50px 0px 0px 20px;
+}
+
+#Section3 .col-sm-5 p, ul {
+	margin:50px 0px 0px 2px;
+}
+
+#Section3 {
+	margin-top: 100px;
+}
+
+img {
+    max-width: 100%;
+}
+
+section.contact {
+    background: #f5f5f5 url(./images/map-bottom.png);
+    min-height: 400px;
+    background-size: auto 100%;
+    padding-top: 30px;
+}
+
+section.contact ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section.contact li {
+	line-height: 2;
+}
+
+/*.title span {
+    font-weight: 900;
+}*/
+
+.btn {
+	background-color: #89B252;	
+}
+
+.no-unwanted-padding{padding-left:5px; padding-right:5px;}
+
+.unstyled{padding-left:1px !important; }
+    
+.freebirdFormviewerViewFormBanner{
+	height: 10px;
+}
+
+.map
+{
+	width:525px;
+	display: inline-block;
+}
+
+</style>
+</head>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<body>
+
+<!--Add the URL for the landing page picture  -->
+    <div class="jumbotron container-full" id="home" style="background-image: url(./images/trustedClothesPhone.jpg);">		
+	
+        <!--#include file="SSI/nav_bar.html" -->
+        <h1 class="pageName">Contact Us</h1>
+        <!--<div class="container">  Top page container
+              <h3>Basic Navbar Example</h3>
+              <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+        </div>-->
+    </div>	
+<!-- --------------------------------End of Navigation----------------------------------->
+    <div id="Section2">
+    	<div class="col-sm-3">
+      		<img src="./images/photo-1456481649446-987a518fbea5-edit.jpg" alt="microphone" />
+      		<h4><strong>Request a Speaker</strong></h4>
+      		<p>Do you have an audience who could benefit from the Trusted Clothes message? Request a speaker to come to your venue to share our mission and how we plan on making the world a better place.</p>
+      		<!--<a href="mailto:contact@trustedclothes.com">speaker@trustedclothes.com.</a>-->
+    	</div>
+    	<div class="col-sm-3">
+			<img src="./images/japanese_high_school_classroom.jpg" alt="classroom" />
+			<h4><strong>Education Facilities</strong></h4>
+			<p>It&#39;s never too early to learn. We have programs for K-12 as well as university and college curriculum. Not only does it help to spread the message but we&#39;ve designed our programs in such a way that participation will actually help our core mission.</p>
+			<!--<a href="mailto:contact@trustedclothes.com">education@trustedclothes.com.</a> -->   
+    	</div>
+    	<div class="col-sm-3">
+			<img src="./images/trusted-clothes-4x3.png" alt="volunteer" />
+			<h4><strong>Volunteer Opportunities</strong></h4>
+			<p>We have both local and remote (virtual) volunteer opportunities.<a href="volunteer.html">Find out more</a>and contact one of our team members or if you have any questions fill out the form below.</p>
+			<!--<a href="mailto:contact@trustedclothes.com">volunteers@trustedclothes.com.</a>-->
+		</div>
+    	<div class="col-sm-3">
+			<img src="./images/photo-1444653389962-8149286c578a-edit.jpg" alt="Press" />
+			<h4><strong>Press Inquiries</strong></h4>
+			<p>Looking for a press kit or to interview someone form Trusted Clothes?  We would be happy to contact you.  Please fill out the form below with your request.</p>
+			<!--<a href="mailto:contact@trustedclothes.com">press@trustedclothes.com.</a>-->
+		</div>
+  	</div>
+	<div style="clear:both" class="space"></div>
+				
+		<!-------------------Beginning of Section3--------------- -->
+    <div id="Section3">
+		<div class="center">
+			<h4>Get in <strong>touch</strong></h4>
+			<p>The best way to reach us is to pick up the phone and CALL US &#9786; We love talking to likeminded individuals who are passionate about making a difference.</p>
+			<h4>The <strong>Office</strong></h4>
+			<ul class="unstyled">
+				<li>
+					<i class="fa fa-phone"></i> 
+					<strong>Phone:  </strong>
+					<a class="mobile" href="tel:226-476-1438">  (226) 476-1438</a>
+					<span class="desktop"></span>
+					<strong> YOU CAN ALSO TEXT US HERE</STRONG>
+				</li>
+                <li>
+                	<i class="fa fa-phone"></i> 
+                	<strong>TOLL FREE:  </strong>
+                	<a class="mobile" href="tel: 877-752-1461">  (877) 752-1464</a>
+                	<span class="desktop"></span>
+                	<strong>
+                </li>
+				<li>
+					<i class="fa fa-envelope"></i> 
+					<strong>Email:  </strong> 
+					<a href="mailto:contact@trustedclothes.com">contact@trustedclothes.com</a>
+				</li>
+				<br>
+				<li>
+					<i class="fa fa-map-marker"></i> 
+					<strong>Address:  </strong>
+					283 Duke St. West, Kitchener, ON CANADA
+				</li>
+				<div class="green-background map"> 
+					<br/>
+					<!--Map--><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.2752145131626!2d-80.4994009845087!3d43.45485117912851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf48afa3c7461%3A0x51308fc7e7ecb551!2sOld+Boehmer+Box+Factory%2C+283+Duke+St+W%2C+Kitchener%2C+ON+N2H+3X7!5e0!3m2!1sen!2sca!4v1474997071247" width="493" height="370" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</br>
+
+					<br/><br/>
+		            <a 
+		            	class="volunteer-button"
+		            	href="https://docs.google.com/forms/d/e/1FAIpQLSfxUwKaRplF7VsMZ6XHP4wvs23TSLFXxbvlQB6Rt_1-X-14Gw/viewform?embedded=true"
+		            	target="_blank" 
+		            >
+		                CONTACT US
+		            </a>
+		            <br/><br/><br/>
+	            </div>
+			</ul>
+		</div>
+		</br>
+    	<!--<div class="col-lg-6 ">
+			<!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtDyDoO9hxvOvqwa-L9MiowHfbffaqQLdWI7PAlMzMJNeJjA/viewform" width="650" height="500"></iframe>-->
+			<!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfxUwKaRplF7VsMZ6XHP4wvs23TSLFXxbvlQB6Rt_1-X-14Gw/viewform?embedded=true" type="text/html" width="100%" height="607"></iframe>-->
+		<!--</div>-->
+		
+		<div style="clear:both"></div>	
+	</div>
+	<div style="clear:both"></div>
+
+<!-- --------------------------------Footer-----------------------------------------------!>
+<!--Social Media Footer-->
+    <footer>         
+        <!--#include file="SSI/footer.html" -->
+    </footer>
+    </body>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+
+    <!--<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>-->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/socialMediaIcons2.js"></script>
+
+</html>

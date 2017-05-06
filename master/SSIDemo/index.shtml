@@ -1,0 +1,3 @@
+<!--#include file="HeaderTemplate.html" -->
+<p>some sample page content goes here</p>
+<!--#include file="FooterTemplate.html" -->

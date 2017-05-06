@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--#include file="SSI/head_tag.html" -->
+    <style>
+        /*For embedded sytles*/
+        
+        #orangeH {
+            color: #ffb84d !important;
+            font-weight: 300 !important;
+            font-size: 0.9em;
+            position: relative;
+            top: 1.7em;
+            left: 1.5em;
+        }
+        
+        #greenH {
+            color: rgb(137, 178, 82) !important;
+            font-weight: 400 !important;
+            font-size: 0.9em;
+            position: relative;
+            left: 1.5em;
+            top: 2em;
+        }
+        
+        .desc {
+            position: relative !important;
+            background: rgba(0, 0, 0, 0.50);
+            padding: 5px 3px 5px 5px;
+            margin-top: 7em;
+            width: 500px;
+            overflow-y: visible;
+            margin-left: 4em;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+        
+        #desc_container {
+            background: rgba(0, 0, 0, 0.50);
+            padding: 5px 3px 5px 5px;
+            margin-top: 4em;
+            overflow-y: visible;
+            margin-left: 5em;
+        }
+        /*
+        .volunteer-button {
+            color: white;
+            border: 2px solid #fff;
+            font-size: 21px;
+            font-family: "lato";
+            font-weight: 900;
+            padding: 21px 36.75px 21px 36.75px;
+            cursor: auto;
+            letter-spacing: 3px;
+            line-height: 21px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 0%;
+            text-shadow: 1px 1px black;
+        }
+        
+        .volunteer-button {
+            text-decoration: none;
+        }
+        
+        .volunteer-button:hover {
+            text-decoration: none;
+            text-decoration-color: none;
+            color: rgb(137, 178, 82);
+            background-color: #fff;
+        }*/
+        
+        div.feature-box {
+            clear: both;
+            padding-top: 1em;
+        }
+        
+        div.feature-box div.feature-box-icon {
+            -moz-border-radius: 35px;
+            -webkit-border-radius: 35px;
+            background: #fff;
+            border-radius: 35px;
+            color: #52AD81;
+            display: inline-block;
+            float: none;
+            height: 35px;
+            line-height: 35px;
+            margin-right: 10px;
+            position: relative;
+            text-align: center;
+            top: 5px;
+            width: 35px;
+            text-shadow: 1px 1px black;
+        }
+        
+        div.feature-box div.feature-box-info {
+            padding-left: 0px;
+        }
+        
+        div.feature-box div.feature-box-icon i.image-icon {
+            position: relative;
+            top: 5px;
+        }
+        
+        div.feature-box div.feature-box-icon i.image-icon.small {
+            top: 2px;
+        }
+        
+        div.feature-box div.feature-box-icon {
+            width: 90px;
+            height: 90px;
+            border-radius: 45px;
+        }
+        
+        div.feature-box div.feature-box-icon img {
+            margin-top: 1em;
+        }
+        
+        section.slider {
+            color: #ffffff;
+            background: #89B252;
+            padding: 40px 0;
+        }
+        
+        section.slider h2 {
+            margin-bottom: 20px;
+        }
+        
+        section.slider .col-md-8 {
+            padding-left: 30px;
+        }
+        
+        #volunteer .ohe-holder {
+            margin-bottom: 40px;
+            font-size: 20px;
+        }
+        
+        #volunteer .ohe-holder .title {
+            font-weight: bold;
+        }
+        
+        #volunteer .ohe-holder a {
+            color: yellow;
+        }
+        
+        #volunteer .inner-page {
+            margin-bottom: 0;
+            text-shadow: 1px 1px black;
+        }
+        /*Banner - Home Page*/
+        
+        .banner-img {
+            /*home page banner*/
+            width: 100%;
+            height: 465px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            background: url(./images/hats1.jpg);
+            text-align: center;
+            background-repeat: no-repeat no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        
+        .banner-content {
+            width: inherit;
+            height: inherit;
+            text-align: inherit;
+            z-index: 2;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            background-color: rgba(255, 255, 179, 0.3);
+        }
+        
+        .banner-content>p {
+            letter-spacing: 0px;
+            text-transform: none;
+            font-size: 75px;
+            line-height: 1.1em;
+            display: block;
+            color: #fff;
+            margin-left: 0px auto;
+            margin-right: 0px auto;
+            padding-bottom: 21px;
+        }
+        
+        .banner-content>p>strong {
+            font-weight: 300;
+            text-shadow: 1px 1px black;
+        }
+        
+        .banner-content>p:first-child {
+            margin-top: 35px;
+        }
+    </style>
+</head>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+
+<body>
+    <!--Add the URL for the landing page picture  -->
+    <div class="jumbotron container-full" id="home" style="background-image: url(./images/intro-bg.jpg);">
+        <!--#include file="SSI/nav_bar.html" -->
+        <h1><span id="greenH">TRUSTED</span><br><span id="orangeH">CLOTHES</span></h1>
+        <p class="desc">Trusted Clothes is an organization linking people, organizations and brands that are ethical, environmentally friendly and health conscious. We are a group of volunteers with a diverse background in manufacturing, marketing and global issues dedicated to promoting Ethical, Sustainable and Healthy fashion.</p>
+    </div>
+    <div class="container" id="services">
+        <div class="row features">
+            <div class="col-lg-4 text-center">
+                <div class="single-fet ">
+                    <div class="r-icon"> <img src="./images/c-sustainable.png" /> </div>
+                    <h2>Sustainable</h2>
+                    <p>Be aware of the impact and abuses the clothing industry has on the world. Be informed about the successes from people actively trying to change this industry, from inside and out.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <div class="single-fet">
+                    <div class="r-icon"> <img src="./images/c-ethical.png" /> </div>
+                    <h2>Ethical</h2>
+                    <p>Be educated about ethical, sustainable and healthy alternative brands, the economics of fashion and the key domains of this industry.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <div class="single-fet">
+                    <div class="r-icon"> <img src="./images/c-healthy.png" /> </div>
+                    <h2>Healthy</h2>
+                    <p>Connect conscious consumers and retailers, brands and manufacturers who provide sustainable and healthy alternatives to mainstream fashion as well as drive affirmative action from the grassroots. Starting with you. Your shopping habits, living habits, clothing habits.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="swap-banner">
+        <div class="container-full">
+            <div class="banner-img">
+                <div class="banner-content">
+                    <p><strong>Join the Community</strong></p>
+                    <p><strong>For The Next Clothes Swap</strong></p>
+                    <p><a href="clothingSwap.shtml" class="volunteer-button" id="clotheSwapButton">SWAP YOUR CLOTHES</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider" id="volunteer">
+        <div class="container">
+            <div class="inner-page">
+                <h2 class="page-headline large text-center">We're looking for enthusiastic volunteers!</h2>
+                <p class="text-center ohe-holder">
+                    <br> Please visit us at our Volunteer page learn more about our organization and see how you may be able to help&#46; </p>
+                <p class="text-center">We're looking for dedicated individuals and activists who can contribute their time in 2017 in many disciplines including:</p>
+            </div>
+            <div class="row inner-page">
+                <div class="col-md-12 lazy-container loaded">
+                    <div class="row ">
+                        <div class="vol">
+                            <div class="col-xs-6 col-md-3">
+                                <div class="feature-box text-center">
+                                    <div class="feature-box-icon"> <img src="./images/i-8.png" /> </div>
+                                    <div class="feature-box-info">
+                                        <h4 class="shorter">Social Media</h4>
+                                        <p class="tall">
+                                            <br/> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="feature-box text-center">
+                                    <div class="feature-box-icon"> <img src="./images/i-3.png" /> </div>
+                                    <div class="feature-box-info">
+                                        <h4 class="shorter">Legal</h4>
+                                        <p class="tall">
+                                            <br/> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="feature-box text-center">
+                                    <div class="feature-box-icon"> <img src="./images/i-5.png" /> </div>
+                                    <div class="feature-box-info">
+                                        <h4 class="shorter">Accounting</h4>
+                                        <p class="tall">
+                                            <br/> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="feature-box text-center">
+                                    <div class="feature-box-icon"> <img src="./images/i-7.png" /> </div>
+                                    <div class="feature-box-info">
+                                        <h4 class="shorter">Design</h4>
+                                        <p class="tall">
+                                            <br/> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="feature-box text-center">
+                                    <div class="feature-box-icon"> <img src="./images/i-2.png" /> </div>
+                                    <div class="feature-box-info">
+                                        <h4 class="shorter">Writing</h4>
+                                        <p class="tall">
+                                            <br/> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="feature-box text-center">
+                                    <div class="feature-box-icon"> <img src="./images/i-4.png" /> </div>
+                                    <div class="feature-box-info">
+                                        <h4 class="shorter">Researching</h4>
+                                        <p class="tall">
+                                            <br/> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="feature-box text-center">
+                                    <div class="feature-box-icon"> <img src="./images/i-6.png" /> </div>
+                                    <div class="feature-box-info">
+                                        <h4 class="shorter">Photography &amp; Videography</h4>
+                                        <p class="tall">
+                                            <br/> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="feature-box text-center">
+                                    <div class="feature-box-icon"> <img src="./images/i-1.png" /> </div>
+                                    <div class="feature-box-info">
+                                        <h4 class="shorter">Many other disciplines. If you have time and a passion to help please contact us!</h4>
+                                        <p class="tall">
+                                            <br/> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row inner-page">
+                <div style="text-align:center; margin: 2px 0px 5px 2px;"> <a href="volunteer.html" class="volunteer-button">VOLUNTEER SIGN UP</a> </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------Footer-----------------------------------------------!>
+<!--Social Media Footer-->
+    <footer>
+        <!--#include file="SSI/footer.html" -->
+    </footer>
+</body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/socialMediaIcons2.js"></script>
+<script>
+    // $(function(){
+    //   $('.nav > li:nth-child(5)> a, .nav > li:nth-child(1)> a ').click(function(){
+    //     window.open(this.href);
+    //        return false;
+    //    });
+    //    });
+</script>
+
+</html>

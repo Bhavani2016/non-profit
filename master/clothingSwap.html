@@ -1,0 +1,439 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trusted Clothes:Clothing Swap</title>
+    <title>Trusted Clothes</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!--icon-->
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">   
+    <!--Lato font load http://www.cssfontstack.com/Lato --Do not remove -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+     
+    <!--JQuery and Bootstrap scripts load moved to bottom-->
+
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+
+    <!-- Main Sytle Sheets -->
+    <link href="css/trustedClothesStyles.css" rel="stylesheet" type="text/css" />
+    <link href="css/SocialMediaIcons.css" rel="stylesheet" type="text/css" />
+    <link href="css/mobilemedia.css" rel="stylesheet" type="text/css" />
+
+    <!--Need for the social media icons -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet"> 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!--Google Analytics -->
+    <script>  
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-69533067-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+<style>
+ /*For embedded sytles*/
+    
+/* clear float*/
+.clearfix:after{content:"";display:block;clear:both;}
+
+	/*float*/
+	.fl{float:left;}
+	.fr{float:right;}
+	footer ul {
+		margin-left: 0em;
+	}
+    
+#section2
+{
+	border-radius: 5px;
+	background-image:url(./images/world.jpg);
+	width:100%;
+	height: auto;
+	padding: 40px;
+	background-size:initial 100%;
+}
+
+#Section2 .col-sm-5 h4{
+	margin:20px;
+}
+
+#Section2 .col-sm-5 p, ul{
+	margin:20px;
+}
+h2 {
+    margin-bottom: 2px;
+}
+#desc {
+    font-size: 1.0em;
+    font-weight: 300;
+}
+
+.flex-container {
+	padding: 0;
+	margin: 0;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-items: flex-start;
+    align-items: flex-start;
+	justify-content: center;
+  	align-content: stretch;
+	align-items: flex-start;	
+}
+.flex-item {
+	min-width: 200px;
+	max-width: 400px;
+	flex-basis: auto;
+	flex-grow: 1;
+	margin: auto;
+}
+.flex-item p {
+    font-size: 1em;
+    font-weight: 400;
+    
+}
+.flex-itme h3 { 
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px #000;
+}
+#mc_embed_signup {
+	background:#fff; 
+	width:75%; 
+}
+
+#next-clothes-swap
+{
+    width:30%;
+}
+
+.jumbotron .container-fluid .media{
+	position: relative !important;
+	left:105px;
+}
+
+#mediapos {
+	position:  absolute;  !important
+	left: 80px; !important
+	right: 0;
+}
+
+.embed-responsive-16by9 {
+    left: 6em;
+    width: 974px;
+    height: auto;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#home
+{
+    background-image: url(./images/clothing-swap.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+/*
+#next-clothes-swap :not(h3)
+{
+    font-size: 12px;
+}*/
+
+</style>
+</head>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<body>
+
+<!--Add the URL for the landing page picture  -->
+    <div class="jumbotron container-full" id="home">		
+	
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.shtml"><img src="./images/trusted-clothes-white-croppedlogo.png" height="75" alt="Trusted Clothes">
+                        <span class="whiteHead">SUSTAINABLE&#8226;ETHICAL&#8226;HEALTHY</span></a>
+                    <!--<a class="navbar-brand" href="#">WebSiteName</a>-->
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown-header">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" target="_self">About<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="./AboutUs.shtml">About Us</a></li>
+                                <li><a href="./partners.shtml">Partners</a></li>
+                                <li><a href="./faq.shtml">FAQ</a></li>
+
+                                <!--<li><a href="#">Statement From Board</a></li>-->
+                            </ul>
+                        </li>
+                        <li class="dropdown-header">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Volunteer!<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="./localVolunteer.shtml">Local (KW area)</a></li>
+                                <li><a href="./remoteVolunteer.shtml">Remote</a></li>
+                                <li><a href="./universityCollege.shtml">University and College</a></li>
+                                <li><a href="./highSchoolStudent.shtml">High School</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-header">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" target="_self">Events<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="./clothingSwap.html">Clothes Swap</a></li>
+                                <!--<li><a href="stuffyDrive.shtml">Stuffy Drive</a></li>-->
+                            </ul>
+                        </li>
+                        <li class="nav-adjust"><a href="http://www.trustedclothes.com/blog/" target="_blank">BLOG</a></li>
+                        <li class="active"><a href="contactUs.shtml" target="_self">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <h1 class="pageName">Clothing Swap</h1>
+  
+        <!--<div class="container">  Top page container
+              <h3>Basic Navbar Example</h3>
+              <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+        </div>-->
+    </div>	
+<!-- --------------------------------End of Navigation----------------------------------->
+<div class="container content-page">
+	<!-- Begin MailChimp Signup Form DO NOT REMOVE
+	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		
+		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>-->
+								
+	<div class="flex-container" id="section2">
+
+		<div id="mc_embed_signup" class="flex-item">
+			<form action="//trustedclothes.us12.list-manage.com/subscribe/post?u=af7cceb4707b071147184f8e0&amp;id=c7bfb3c290" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<div id="mc_embed_signup_scroll">
+					<h2>Get Clothing Swap Notifications</h2>
+					<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+					<div class="mc-field-group">
+						<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+						</label>
+						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+					</div>
+					<div class="mc-field-group">
+						<label for="mce-FNAME">First Name </label>
+						<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+					</div>
+					<div class="mc-field-group">
+						<label for="mce-LNAME">Last Name </label>
+						<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+					</div>
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_af7cceb4707b071147184f8e0_c7bfb3c290" tabindex="-1" value=""></div>
+					<div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				</div>
+			</form>
+		</div><!--End mc_embed_signup-->
+		<div class="flex-item">  <!--Flex container for page content and the next two swaps -->
+			<br>
+            <h3>Join us for one of our monthly Clothes Swap&#33;</h3>
+			<br>
+			<p>Trusted Clothes and The Kidney Foundation of Canada have partnered together again to organize a FREE CLOTHES SWAP&#33;
+			<br>
+			<br>Bring your gently used, clean clothes that you don&#146;t want anymore and leave with new &#40;to you&#41; stuff&#33;
+			<br>The event is COMPLETLY FREE and aims to raise awareness about textile waste and how our clothes affect the environment&#46;
+			<br>You can swap menswear&#44; womenswear&#44; children&#146;s clothes&#44; jackets&#44; shoes and accessories&#46; Please invite your friends&#33;</p><br>
+		</div>
+    </div>
+   
+    <h2><a href="https://www.facebook.com/events/245163145949484/">The Next Clothing Swap</a></h2><br>
+    <div class="flex-container"><!--Lincoln Road Chapel-->
+        <div class="flex-item fl hidden"">
+            <h3>Tuesday&#44; October 4</h3><br>
+            <p><strong>5&#58;00PM to 7&#58;00PM</strong></p>
+            <p><strong>Lincoln Road Chapel</strong><br /> <strong>145 Lincoln Rd<br /> <strong>Waterloo, ON</strong><br /> <strong>N2J 2N8</strong></strong></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.4469130097045!2d-80.51300004882987!3d43.47214287203498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf477f41ccc67%3A0x3f2c4d1aa08ca21b!2s145+Lincoln+Rd%2C+Waterloo%2C+ON+N2J+2N8!5e0!3m2!1sen!2sca!4v1473861270327" width="480" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="flex-item hidden"><!--KPL-->
+            <h3>Saturday&#44; October 22</h3><br>
+            <p><strong>11&#58;00AM to 3&#58;00PM</strong></p>
+            <p><strong>KPL</strong><br /> <strong>85 Queen Street North<br /> <strong>Kitchener, ON</strong><br /> <strong>N2H 2H1</strong></strong></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.379707983273!2d-80.48876694883036!3d43.45266937328999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf492c67d32df%3A0x3d833109e0a1724b!2s85+Queen+St+N%2C+Kitchener%2C+ON+N2H+2H1!5e0!3m2!1sen!2sca!4v1473861463092" width="480" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="flex-item"><!--Kitchener Waterloo Collegiate and Vocational School-->
+            <h3>Saturday&#44; April 22</h3><br>
+            <p><strong>10&#58;30AM to 1&#58;30PM</strong></p>
+            <p>
+                <strong>Kitchener Waterloo Collegiate and Vocational School</strong><br />
+                <strong>
+                        787 King St W<br />
+                        <strong>Kitchener, ON</strong><br />
+                        <strong>N2G 1E3</strong>
+                </strong>
+            </p>
+            <div style="width: 480px">
+                <iframe 
+                    width="480" 
+                    height="400" 
+                    src="http://www.mapi.ie/create-google-map/map.php?width=480&amp;height=400&amp;hl=en&amp;coord=43.45584789999999,-80.5084061&amp;q=Kitchener%20Waterloo%20Collegiate%20and%20Vocational%20School+()&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=A&amp;output=embed" 
+                    frameborder="0" 
+                    scrolling="no" 
+                    marginheight="0" 
+                    marginwidth="0"
+                >
+                    <a href="http://www.mapsdirections.info/pl/stworz-mape-google/">
+                        Osadź html Google Maps
+                    </a>
+                    na
+                    <a href="http://www.mapsdirections.info/pl/">
+                        Narzędzie Planowania Trasy
+                    </a>
+                </iframe>
+            </div>
+            <br />
+        </div>
+        <br/>
+        
+        <p class ="hidden" style="size:12;">
+            There is no upcoming clothing swap scheduled at this time.
+        </p>
+    </div>
+    <center><div id="next-clothes-swap">
+        <h3>Next Scheduled Clothes Swap</h3>
+        <ul>
+            <li>May 27</li>
+            <li>June 24</li>
+        </ul>
+    </div></center>
+    
+    </div>
+    <center><div id="clothes-swap-video">
+        <h2>Our swaps are such a great success &#150; see all about it here</h2><br>
+    	<!--<div id="mediapos" class="embed-responsive embed-responsive-16by9">  <!--video of interview -->
+        <div class="embed-responsive embed-responsive-16by9">    
+            <iframe 
+                src="https://www.youtube.com/embed/me2XItuZ6MI" 
+                frameborder="0"
+                width="600px"
+                height="338px" 
+            >
+            </iframe>
+            <a class="hidden" href="http://www.youtube.com/embed/me2XItuZ6MI?rel=0&autoplay=1">
+                Watch Full Screen
+            </a>
+
+    		</br>
+    	</div>
+    </div></center>           
+</div>
+
+<!-- --------------------------------Footer-----------------------------------------------!>
+<!--Social Media Footer-->
+    
+    <footer>         
+        <div class="container-fluid" id="socialMedia">
+            <p class="socialText">
+                Stay 
+                <span style="color:#89b252;">Connected.</span>
+                Get the latest details on our swaps, how to 
+                <a title="Become a Volunteer" href="./volunteer.html" id="style-stuff011">
+                <span id="style-stuff012">volunteer</span></a> and much more!
+            </p>
+            <div id="outer-social">
+                <div id="inner-social">
+                    <ul>    
+                        <li onclick="window.open('http://www.facebook.com/TrustedClothes', '_blank')" title="Facebook">
+                            <a class="fa fa-facebook fa-1x" href="http://www.facebook.com/TrustedClothes" target="_blank"></a>
+                        </li>
+
+                        <li  onclick="window.open('http://www.twitter.com/TrustedClothes', '_blank')" title="Twitter">
+                           <a class="fa fa-twitter fa-1x" href="http://www.twitter.com/TrustedClothes" title="Twitter" target="_blank"></a>
+                        </li>
+
+                        <li  onclick="window.open('http://www.youtube.com/TrustedClothes', '_blank')" title="YouTube">
+                            <a class="fa fa-youtube fa-1x" href="http://www.youtube.com/TrustedClothes" title="YouTube" target="_blank"></a>
+                        </li>
+
+                        <li  onclick="window.open('http://www.instagram.com/TrustedClothes', '_blank')" title="Instagram">
+                           <a class="fa fa-instagram fa-1x" href="http://www.instagram.com/TrustedClothes" title="Instagram" target="_blank"></a>
+                        </li>
+                        
+                        <li  onclick="window.open('https://plus.google.com/+TrustedClothes', '_blank')" title="Google-plus">
+                           <a class="fa fa-google-plus fa-1x" href="https://plus.google.com/+TrustedClothes" title="Google-plus" target="_blank"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>      
+        </div>
+               
+        <section class="footer-holder container-fluid">
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-4">
+                          <h4>EXPLORE</h4>
+                          <a class="footmenu" href="volunteer.html">Volunteer</a><br>
+                          <a class="footmenu" href="contactUs.shtml">Contacts</a><br>
+                          <a class="footmenu" href="faq.shtml">FAQ</a>
+                        </div>
+                        <div class="col-xs-6 col-md-4">
+                            <h4>VISIT</h4>
+                            <a class="footmenu" href="contactUs.shtml">Directions</a><br>
+                            <a class="footmenu" href="clothingSwap.html">Events</a><br>                          
+                        </div>
+                        <div class="col-xs-12 col-md-4" id="footcopy">
+                            <img alt="Trusted Clothes" src="./images/logo.png" style="margin-bottom:30px;"><br>
+                            &copy; 2017 Trusted Clothes             
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/socialMediaIcons2.js"></script>
+    <script>
+    //$(function(){
+      //  $('.top-menu .nav > li:nth-child(5)> a,.top-menu .nav > li:nth-child(1)> a ').click(function(){
+        //    window.open(this.href);
+        //    return false;
+    //    });
+    //});	
+    </script>
+</body>
+</html>
